@@ -87,7 +87,7 @@ namespace SNCT_Pract
             return synonyms;
         }
 
-        //Returns a paraphrased sentences.// FIX ME
+        //Returns a paraphrased sentences from Eng-Eng translator.// FIX ME
         static List<string> paraphrase(string question)
         {
             List<string> paraphrases = new List<string>();
