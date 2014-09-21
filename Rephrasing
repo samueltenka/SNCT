@@ -120,9 +120,7 @@ namespace SNCT_Pract
                             var index = line.IndexOf("<span class=\"text\">");
                             index = index + "<span class=\"text\">".Length;
                             synonyms.Add(line.Substring(index).Replace("</span>", ""));
-
-                        }
-                        
+                        }                        
                     }
                 }                
             }
