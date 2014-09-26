@@ -3,8 +3,10 @@
 
 static string expand_to_surrounding_sentence(string text, int index) {
    /* sentences are minimal intervals (period, period] */
-
-   // FILL IN
+   text = "." + text + ".";
+   int left = text.find_last_of('.', index);
+   int right = text.find('.', index);
+   return text.substr(left+1, right-left);
 }
 
 list<string> find_relevant_sentences(string knowledgebase, list<string> queries) {
@@ -26,5 +28,6 @@ list<string> find_relevant_sentences(string knowledgebase, list<string> queries)
 }
 
 string generate_consensus(list<string> relevant_sentences) {
+   return *(relevant_sentences.begin());
    // FILL IN
 }
