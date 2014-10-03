@@ -1,0 +1,34 @@
+-----------word----------
+akee
+-----------word----------
+akees
+-----------word----------
+akela
+-----------word----------
+akelas
+-----------word----------
+akene
+-----------word----------
+akenes
+-----------word----------
+akimbo
+--------word type--------
+adj
+--------synonyms---------
+crossing
+forked
+cornered
+-----------word----------
+akin
+--------word type--------
+adj
+--------synonyms---------
+comparable
+similar
+alike
+incident
+like
+-----------word----------
+akvavit
+-----------word----------
+akvavits

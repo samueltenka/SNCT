@@ -1,0 +1,185 @@
+-----------word----------
+aqua
+--------word type--------
+noun
+--------synonyms---------
+juice
+cooler
+solution
+--------word type--------
+noun
+--------synonyms---------
+flow
+solution
+juice
+--------word type--------
+noun
+--------synonyms---------
+drink
+rain
+tears
+-----------word----------
+aquacade
+-----------word----------
+aquae
+--------word type--------
+noun
+--------synonyms---------
+juice
+cooler
+solution
+--------word type--------
+noun
+--------synonyms---------
+flow
+solution
+juice
+--------word type--------
+noun
+--------synonyms---------
+drink
+rain
+tears
+-----------word----------
+aquanaut
+-----------word----------
+aquaria
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+aquarial
+-----------word----------
+aquarian
+-----------word----------
+aquarist
+-----------word----------
+aquarium
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+aquas
+--------word type--------
+noun
+--------synonyms---------
+juice
+cooler
+solution
+--------word type--------
+noun
+--------synonyms---------
+flow
+solution
+juice
+--------word type--------
+noun
+--------synonyms---------
+drink
+rain
+tears
+-----------word----------
+aquatic
+--------word type--------
+adj
+--------synonyms---------
+floating
+marine
+sea
+swimming
+-----------word----------
+aquatics
+--------word type--------
+noun
+--------synonyms---------
+floating
+-----------word----------
+aquatint
+-----------word----------
+aquatone
+-----------word----------
+aquavit
+-----------word----------
+aquavits
+-----------word----------
+aqueduct
+--------word type--------
+noun
+--------synonyms---------
+course
+channel
+-----------word----------
+aqueous
+--------word type--------
+adj
+--------synonyms---------
+flowing
+running
+melted
+molten
+--------word type--------
+adj
+--------synonyms---------
+smooth
+running
+melted
+wet
+molten
+moving
+soft
+thin
+dissolved
+--------word type--------
+adj
+--------synonyms---------
+fluid
+pale
+thin
+weak
+wet
+washed
+--------word type--------
+adj
+--------synonyms---------
+soaked
+pouring
+soaking
+raining
+--------word type--------
+adj
+--------synonyms---------
+pouring
+soaked
+raining
+soaking
+-----------word----------
+aquifer
+--------word type--------
+noun
+--------synonyms---------
+origin
+root
+source
+beginning
+-----------word----------
+aquifers
+--------word type--------
+noun
+--------synonyms---------
+origin
+root
+source
+beginning
+-----------word----------
+aquiline
+--------word type--------
+adj
+--------synonyms---------
+prominent
+-----------word----------
+aquiver
+--------word type--------
+adj
+--------synonyms---------
+excited
+shaking
