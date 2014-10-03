@@ -1,0 +1,38 @@
+-----------word----------
+llama
+--------word type--------
+noun
+--------synonyms---------
+horse
+cow
+elephant
+pig
+cattle
+-----------word----------
+llamas
+--------word type--------
+noun
+--------synonyms---------
+horse
+cow
+elephant
+pig
+cattle
+-----------word----------
+llano
+--------word type--------
+noun
+--------synonyms---------
+plain
+field
+range
+plain
+-----------word----------
+llanos
+--------word type--------
+noun
+--------synonyms---------
+plain
+field
+range
+plain

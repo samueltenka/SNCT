@@ -1,0 +1,69 @@
+-----------word----------
+nyala
+-----------word----------
+nyalas
+-----------word----------
+nylghai
+-----------word----------
+nylghais
+-----------word----------
+nylghau
+-----------word----------
+nylghaus
+-----------word----------
+nylon
+-----------word----------
+nylons
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+nymph
+--------word type--------
+noun
+--------synonyms---------
+spirit
+sprite
+-----------word----------
+nympha
+-----------word----------
+nymphae
+-----------word----------
+nymphal
+-----------word----------
+nymphean
+-----------word----------
+nymphet
+--------word type--------
+noun
+--------synonyms---------
+spirit
+sprite
+-----------word----------
+nymphets
+--------word type--------
+noun
+--------synonyms---------
+spirit
+sprite
+-----------word----------
+nympho
+--------word type--------
+noun
+--------synonyms---------
+broad
+-----------word----------
+nymphos
+--------word type--------
+noun
+--------synonyms---------
+broad
+-----------word----------
+nymphs
+--------word type--------
+noun
+--------synonyms---------
+spirit
+sprite
+-----------word----------
+nystatin

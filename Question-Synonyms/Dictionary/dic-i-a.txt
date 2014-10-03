@@ -1,0 +1,51 @@
+-----------word----------
+iamb
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+iambi
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+iambic
+--------word type--------
+adj
+--------synonyms---------
+dramatic
+romantic
+--------word type--------
+adj
+--------synonyms---------
+dramatic
+romantic
+-----------word----------
+iambics
+-----------word----------
+iambs
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+iambus
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+iambuses
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+iatric
+--------word type--------
+adj
+--------synonyms---------
+healing
+-----------word----------
+iatrical
+--------word type--------
+adj
+--------synonyms---------
+healing

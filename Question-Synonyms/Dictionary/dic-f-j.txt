@@ -1,0 +1,16 @@
+-----------word----------
+fjeld
+-----------word----------
+fjelds
+-----------word----------
+fjord
+--------word type--------
+noun
+--------synonyms---------
+arm
+-----------word----------
+fjords
+--------word type--------
+noun
+--------synonyms---------
+arm

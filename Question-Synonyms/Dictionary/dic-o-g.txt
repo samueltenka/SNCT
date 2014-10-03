@@ -1,0 +1,167 @@
+-----------word----------
+ogam
+-----------word----------
+ogams
+-----------word----------
+ogdoad
+-----------word----------
+ogdoads
+-----------word----------
+ogee
+--------word type--------
+noun
+--------synonyms---------
+loop
+sweep
+bend
+circle
+bow
+turn
+circuit
+round
+-----------word----------
+ogees
+--------word type--------
+noun
+--------synonyms---------
+loop
+sweep
+bend
+circle
+bow
+turn
+circuit
+round
+-----------word----------
+ogham
+-----------word----------
+oghamic
+-----------word----------
+oghamist
+-----------word----------
+oghams
+-----------word----------
+ogival
+-----------word----------
+ogive
+-----------word----------
+ogives
+-----------word----------
+ogle
+--------word type--------
+verb
+--------synonyms---------
+look
+eye
+fix
+watch
+focus
+gaze
+peer
+-----------word----------
+ogled
+--------word type--------
+verb
+--------synonyms---------
+look
+eye
+fix
+watch
+focus
+gaze
+peer
+-----------word----------
+ogler
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+oglers
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+ogles
+--------word type--------
+verb
+--------synonyms---------
+look
+eye
+fix
+watch
+focus
+gaze
+peer
+-----------word----------
+ogling
+--------word type--------
+verb
+--------synonyms---------
+look
+eye
+fix
+watch
+focus
+gaze
+peer
+-----------word----------
+ogre
+--------word type--------
+noun
+--------synonyms---------
+giant
+devil
+monster
+-----------word----------
+ogreish
+--------word type--------
+adj
+--------synonyms---------
+cruel
+evil
+-----------word----------
+ogreism
+-----------word----------
+ogreisms
+-----------word----------
+ogres
+--------word type--------
+noun
+--------synonyms---------
+giant
+devil
+monster
+-----------word----------
+ogress
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+mess
+--------word type--------
+noun
+--------synonyms---------
+bag
+-----------word----------
+ogresses
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+mess
+--------word type--------
+noun
+--------synonyms---------
+bag
+-----------word----------
+ogrish
+-----------word----------
+ogrishly
+-----------word----------
+ogrism
+-----------word----------
+ogrisms

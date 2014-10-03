@@ -1,0 +1,140 @@
+-----------word----------
+otalgia
+-----------word----------
+otalgias
+-----------word----------
+otalgic
+-----------word----------
+otalgies
+-----------word----------
+otalgy
+-----------word----------
+other
+--------word type--------
+adj
+--------synonyms---------
+new
+alternative
+more
+another
+else
+extra
+farther
+fresh
+further
+spare
+--------word type--------
+adj
+--------synonyms---------
+diverse
+separate
+contrasting
+distant
+distinct
+opposite
+otherwise
+remaining
+unlike
+-----------word----------
+others
+--------word type--------
+noun
+--------synonyms---------
+remains
+balance
+heel
+--------word type--------
+noun
+--------synonyms---------
+opportunity
+option
+selection
+preference
+pick
+other
+-----------word----------
+otic
+--------word type--------
+adj
+--------synonyms---------
+sound
+-----------word----------
+otiose
+--------word type--------
+adj
+--------synonyms---------
+empty
+-----------word----------
+otiosely
+-----------word----------
+otiosity
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+depression
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+otitic
+-----------word----------
+otitides
+-----------word----------
+otitis
+-----------word----------
+otocyst
+-----------word----------
+otocysts
+-----------word----------
+otolith
+-----------word----------
+otoliths
+-----------word----------
+otology
+-----------word----------
+otoscope
+-----------word----------
+otoscopy
+-----------word----------
+ototoxic
+-----------word----------
+ottar
+-----------word----------
+ottars
+-----------word----------
+ottava
+-----------word----------
+ottavas
+-----------word----------
+otter
+-----------word----------
+otters
+-----------word----------
+otto
+-----------word----------
+ottoman
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+ottomans
+-----------word----------
+ottos

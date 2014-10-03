@@ -1,0 +1,43 @@
+-----------word----------
+kvas
+-----------word----------
+kvases
+-----------word----------
+kvass
+-----------word----------
+kvasses
+-----------word----------
+kvetch
+--------word type--------
+verb
+--------synonyms---------
+mutter
+--------word type--------
+verb
+--------synonyms---------
+protest
+kick
+-----------word----------
+kvetched
+--------word type--------
+verb
+--------synonyms---------
+mutter
+--------word type--------
+verb
+--------synonyms---------
+protest
+kick
+-----------word----------
+kvetches
+--------word type--------
+verb
+--------synonyms---------
+mutter
+--------word type--------
+verb
+--------synonyms---------
+protest
+kick
+-----------word----------
+kvetchy

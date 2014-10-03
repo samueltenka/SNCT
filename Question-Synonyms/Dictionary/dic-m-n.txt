@@ -1,0 +1,43 @@
+-----------word----------
+mnemonic
+--------word type--------
+noun
+--------synonyms---------
+hint
+suggestion
+clue
+prompt
+lead
+nod
+idea
+sign
+job
+warning
+indication
+key
+reminder
+notion
+prompting
+picture
+image
+thought
+fantasy
+reminder
+vision
+concept
+prompt
+hint
+cue
+suggestion
+representation
+--------word type--------
+noun
+--------synonyms---------
+help
+stimulus
+cue
+reminder
+--------word type--------
+adj
+--------synonyms---------
+similar

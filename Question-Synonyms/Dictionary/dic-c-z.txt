@@ -1,0 +1,62 @@
+-----------word----------
+czar
+--------word type--------
+noun
+--------synonyms---------
+leader
+-----------word----------
+czardas
+-----------word----------
+czardom
+-----------word----------
+czardoms
+-----------word----------
+czarevna
+-----------word----------
+czarina
+--------word type--------
+noun
+--------synonyms---------
+king
+queen
+royal
+lady
+count
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+czarinas
+--------word type--------
+noun
+--------synonyms---------
+king
+queen
+royal
+lady
+count
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+czarism
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+czarisms
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+czarist
+-----------word----------
+czarists
+-----------word----------
+czaritza
+-----------word----------
+czars
+--------word type--------
+noun
+--------synonyms---------
+leader

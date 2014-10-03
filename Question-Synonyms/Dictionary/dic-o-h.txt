@@ -1,0 +1,54 @@
+-----------word----------
+oh
+--------word type--------
+noun
+--------synonyms---------
+wow
+hello
+dear
+no
+sorry
+-----------word----------
+ohed
+--------word type--------
+interj
+--------synonyms---------
+dear
+no
+sorry
+-----------word----------
+ohia
+-----------word----------
+ohias
+-----------word----------
+ohing
+--------word type--------
+interj
+--------synonyms---------
+dear
+no
+sorry
+-----------word----------
+ohm
+-----------word----------
+ohmage
+-----------word----------
+ohmages
+-----------word----------
+ohmic
+-----------word----------
+ohmmeter
+-----------word----------
+ohms
+-----------word----------
+oho
+-----------word----------
+ohs
+--------word type--------
+noun
+--------synonyms---------
+wow
+hello
+dear
+no
+sorry

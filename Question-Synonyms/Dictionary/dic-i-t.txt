@@ -1,0 +1,384 @@
+-----------word----------
+it
+--------word type--------
+noun
+--------synonyms---------
+appeal
+interest
+draw
+tendency
+charm
+pull
+invitation
+courting
+--------word type--------
+noun
+--------synonyms---------
+flash
+appeal
+magic
+beauty
+appeal
+grace
+spell
+attraction
+--------word type--------
+noun
+--------synonyms---------
+charm
+appeal
+attraction
+confidence
+presence
+pull
+charm
+-----------word----------
+italic
+--------word type--------
+noun
+--------synonyms---------
+case
+-----------word----------
+italics
+--------word type--------
+noun
+--------synonyms---------
+case
+-----------word----------
+itch
+--------word type--------
+noun
+--------synonyms---------
+crawling
+--------word type--------
+noun
+--------synonyms---------
+impulse
+urge
+longing
+hunger
+motive
+passion
+--------word type--------
+verb
+--------synonyms---------
+crawl
+--------word type--------
+verb
+--------synonyms---------
+hunger
+pant
+sigh
+burn
+long
+pine
+want
+-----------word----------
+itched
+--------word type--------
+verb
+--------synonyms---------
+crawl
+--------word type--------
+verb
+--------synonyms---------
+hunger
+pant
+sigh
+burn
+long
+pine
+want
+-----------word----------
+itches
+--------word type--------
+noun
+--------synonyms---------
+crawling
+--------word type--------
+noun
+--------synonyms---------
+impulse
+urge
+longing
+hunger
+motive
+passion
+--------word type--------
+verb
+--------synonyms---------
+crawl
+--------word type--------
+verb
+--------synonyms---------
+hunger
+pant
+sigh
+burn
+long
+pine
+want
+-----------word----------
+itchier
+--------word type--------
+adj
+--------synonyms---------
+crawling
+-----------word----------
+itchiest
+--------word type--------
+adj
+--------synonyms---------
+crawling
+-----------word----------
+itchily
+-----------word----------
+itching
+--------word type--------
+verb
+--------synonyms---------
+crawl
+--------word type--------
+verb
+--------synonyms---------
+hunger
+pant
+sigh
+burn
+long
+pine
+want
+-----------word----------
+itchings
+--------word type--------
+noun
+--------synonyms---------
+longing
+hunger
+passion
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+itchy
+--------word type--------
+adj
+--------synonyms---------
+crawling
+-----------word----------
+item
+--------word type--------
+noun
+--------synonyms---------
+information
+component
+feature
+element
+thing
+piece
+point
+aspect
+news
+story
+matter
+detail
+note
+notice
+particular
+report
+consideration
+bit
+account
+column
+specific
+entry
+-----------word----------
+itemed
+-----------word----------
+iteming
+-----------word----------
+itemise
+-----------word----------
+itemised
+-----------word----------
+itemises
+-----------word----------
+itemize
+--------word type--------
+verb
+--------synonyms---------
+count
+mention
+relate
+list
+number
+detail
+catalog
+record
+quote
+instance
+document
+cite
+specify
+inventory
+-----------word----------
+itemized
+--------word type--------
+adj
+--------synonyms---------
+detailed
+-----------word----------
+itemizer
+-----------word----------
+itemizes
+--------word type--------
+verb
+--------synonyms---------
+count
+mention
+relate
+list
+number
+detail
+catalog
+record
+quote
+instance
+document
+cite
+specify
+inventory
+-----------word----------
+items
+--------word type--------
+noun
+--------synonyms---------
+information
+component
+feature
+element
+thing
+piece
+point
+aspect
+news
+story
+matter
+detail
+note
+notice
+particular
+report
+consideration
+bit
+account
+column
+specific
+entry
+-----------word----------
+iterance
+--------word type--------
+noun
+--------synonyms---------
+repeat
+rhythm
+echo
+relation
+return
+practice
+report
+copy
+-----------word----------
+iterant
+--------word type--------
+adj
+--------synonyms---------
+occasional
+arrested
+broken
+interrupted
+checked
+shifting
+--------word type--------
+adj
+--------synonyms---------
+boring
+repeating
+--------word type--------
+adj
+--------synonyms---------
+arrested
+broken
+interrupted
+occasional
+checked
+shifting
+-----------word----------
+iterate
+--------word type--------
+verb
+--------synonyms---------
+repeat
+emphasize
+-----------word----------
+iterated
+--------word type--------
+verb
+--------synonyms---------
+repeat
+emphasize
+-----------word----------
+iterates
+--------word type--------
+verb
+--------synonyms---------
+repeat
+emphasize
+-----------word----------
+iterum
+-----------word----------
+ither
+-----------word----------
+its
+--------word type--------
+adj
+--------synonyms---------
+owned
+mine
+individual
+inherent
+particular
+personal
+private
+resident
+appeal
+interest
+draw
+tendency
+charm
+pull
+invitation
+courting
+--------word type--------
+noun
+--------synonyms---------
+flash
+appeal
+magic
+beauty
+appeal
+grace
+spell
+attraction
+--------word type--------
+noun
+--------synonyms---------
+charm
+appeal
+attraction
+confidence
+presence
+pull
+charm
+-----------word----------
+itself

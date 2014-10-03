@@ -1,0 +1,332 @@
+-----------word----------
+egad
+--------word type--------
+noun
+--------synonyms---------
+wow
+hello
+-----------word----------
+egads
+--------word type--------
+noun
+--------synonyms---------
+wow
+hello
+-----------word----------
+egal
+-----------word----------
+egalite
+-----------word----------
+egalites
+-----------word----------
+eger
+-----------word----------
+egers
+-----------word----------
+egest
+--------word type--------
+verb
+--------synonyms---------
+remove
+produce
+eliminate
+pass
+sweat
+-----------word----------
+egesta
+--------word type--------
+noun
+--------synonyms---------
+sweat
+chips
+-----------word----------
+egested
+--------word type--------
+verb
+--------synonyms---------
+remove
+produce
+eliminate
+pass
+sweat
+-----------word----------
+egesting
+--------word type--------
+verb
+--------synonyms---------
+remove
+produce
+eliminate
+pass
+sweat
+-----------word----------
+egestion
+-----------word----------
+egestive
+-----------word----------
+egests
+--------word type--------
+verb
+--------synonyms---------
+remove
+produce
+eliminate
+pass
+sweat
+-----------word----------
+egg
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+eggar
+-----------word----------
+eggars
+-----------word----------
+eggcup
+-----------word----------
+eggcups
+-----------word----------
+egged
+--------word type--------
+verb
+--------synonyms---------
+urge
+ride
+needle
+provoke
+egg
+worry
+-----------word----------
+egger
+-----------word----------
+eggers
+-----------word----------
+egghead
+--------word type--------
+noun
+--------synonyms---------
+scholar
+genius
+-----------word----------
+eggheads
+--------word type--------
+noun
+--------synonyms---------
+scholar
+genius
+-----------word----------
+egging
+--------word type--------
+verb
+--------synonyms---------
+urge
+ride
+needle
+provoke
+egg
+worry
+-----------word----------
+eggless
+-----------word----------
+eggnog
+-----------word----------
+eggnogs
+-----------word----------
+eggplant
+-----------word----------
+eggs
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+eggshell
+-----------word----------
+eggy
+-----------word----------
+egis
+--------word type--------
+noun
+--------synonyms---------
+backing
+sponsor
+aid
+patron
+angel
+support
+-----------word----------
+egises
+--------word type--------
+noun
+--------synonyms---------
+backing
+sponsor
+aid
+patron
+angel
+support
+-----------word----------
+eglatere
+-----------word----------
+eglomise
+-----------word----------
+ego
+--------word type--------
+noun
+--------synonyms---------
+character
+self
+-----------word----------
+egoism
+--------word type--------
+noun
+--------synonyms---------
+boasting
+pride
+-----------word----------
+egoisms
+--------word type--------
+noun
+--------synonyms---------
+boasting
+pride
+--------word type--------
+noun
+--------synonyms---------
+boasting
+pride
+-----------word----------
+egoist
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+egoistic
+--------word type--------
+adj
+--------synonyms---------
+-----------word----------
+egoists
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+egoless
+-----------word----------
+egomania
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+egos
+--------word type--------
+noun
+--------synonyms---------
+character
+self
+-----------word----------
+egotism
+--------word type--------
+noun
+--------synonyms---------
+pride
+-----------word----------
+egotisms
+--------word type--------
+noun
+--------synonyms---------
+boasting
+pride
+--------word type--------
+noun
+--------synonyms---------
+pride
+-----------word----------
+egotist
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+egotists
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+egress
+--------word type--------
+noun
+--------synonyms---------
+opening
+departure
+exit
+outlet
+escape
+withdrawal
+issue
+exiting
+-----------word----------
+egressed
+--------word type--------
+verb
+--------synonyms---------
+emerge
+derive
+stem
+arise
+proceed
+spring
+rise
+flow
+initiate
+exit
+birth
+issue
+--------word type--------
+verb
+--------synonyms---------
+develop
+appear
+show
+rise
+surface
+arrive
+derive
+proceed
+spring
+flow
+stem
+dawn
+issue
+steam
+--------word type--------
+verb
+--------synonyms---------
+leave
+go
+avoid
+depart
+duck
+exit
+flee
+fly
+split
+withdraw
+-----------word----------
+egresses
+--------word type--------
+noun
+--------synonyms---------
+opening
+departure
+exit
+outlet
+escape
+withdrawal
+issue
+exiting
+-----------word----------
+egret
+-----------word----------
+egrets
+-----------word----------
+egyptian

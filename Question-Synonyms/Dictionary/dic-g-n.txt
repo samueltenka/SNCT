@@ -1,0 +1,507 @@
+-----------word----------
+gnar
+-----------word----------
+gnarl
+--------word type--------
+verb
+--------synonyms---------
+cry
+snap
+bay
+curve
+twist
+wind
+bend
+--------word type--------
+verb
+--------synonyms---------
+injure
+damage
+twist
+ruin
+--------word type--------
+verb
+--------synonyms---------
+twist
+alter
+color
+bias
+bend
+decline
+angle
+melt
+crush
+collapse
+lie
+change
+curve
+wind
+--------word type--------
+noun
+--------synonyms---------
+roll
+mutter
+roll
+snap
+--------word type--------
+noun
+--------synonyms---------
+screw
+twist
+bunch
+tie
+joint
+connection
+link
+bond
+--------word type--------
+verb
+--------synonyms---------
+mutter
+abuse
+snap
+threaten
+complain
+--------word type--------
+verb
+--------synonyms---------
+rail
+shout
+threaten
+--------word type--------
+verb
+--------synonyms---------
+damage
+injure
+ruin
+twist
+-----------word----------
+gnarled
+--------word type--------
+adj
+--------synonyms---------
+twisted
+rough
+bent
+wrinkled
+-----------word----------
+gnarlier
+--------word type--------
+adj
+--------synonyms---------
+great
+neat
+swell
+wonderful
+finest
+-----------word----------
+gnarling
+--------word type--------
+verb
+--------synonyms---------
+cry
+snap
+bay
+curve
+twist
+wind
+bend
+--------word type--------
+verb
+--------synonyms---------
+injure
+damage
+twist
+ruin
+--------word type--------
+verb
+--------synonyms---------
+twist
+alter
+color
+bias
+bend
+decline
+angle
+melt
+crush
+collapse
+lie
+change
+curve
+wind
+--------word type--------
+noun
+--------synonyms---------
+roll
+mutter
+roll
+snap
+--------word type--------
+verb
+--------synonyms---------
+mutter
+abuse
+snap
+threaten
+complain
+--------word type--------
+verb
+--------synonyms---------
+rail
+shout
+threaten
+--------word type--------
+verb
+--------synonyms---------
+damage
+injure
+ruin
+twist
+-----------word----------
+gnarls
+--------word type--------
+verb
+--------synonyms---------
+cry
+snap
+bay
+curve
+twist
+wind
+bend
+--------word type--------
+verb
+--------synonyms---------
+injure
+damage
+twist
+ruin
+--------word type--------
+verb
+--------synonyms---------
+twist
+alter
+color
+bias
+bend
+decline
+angle
+melt
+crush
+collapse
+lie
+change
+curve
+wind
+--------word type--------
+noun
+--------synonyms---------
+roll
+mutter
+roll
+snap
+--------word type--------
+noun
+--------synonyms---------
+screw
+twist
+bunch
+tie
+joint
+connection
+link
+bond
+--------word type--------
+verb
+--------synonyms---------
+mutter
+abuse
+snap
+threaten
+complain
+--------word type--------
+verb
+--------synonyms---------
+rail
+shout
+threaten
+--------word type--------
+verb
+--------synonyms---------
+damage
+injure
+ruin
+twist
+-----------word----------
+gnarly
+--------word type--------
+adj
+--------synonyms---------
+great
+neat
+swell
+wonderful
+finest
+-----------word----------
+gnarr
+--------word type--------
+noun
+--------synonyms---------
+roll
+mutter
+roll
+snap
+-----------word----------
+gnarred
+--------word type--------
+noun
+--------synonyms---------
+roll
+mutter
+roll
+snap
+-----------word----------
+gnarring
+--------word type--------
+noun
+--------synonyms---------
+roll
+mutter
+roll
+snap
+-----------word----------
+gnarrs
+--------word type--------
+noun
+--------synonyms---------
+roll
+mutter
+roll
+snap
+-----------word----------
+gnars
+-----------word----------
+gnash
+--------word type--------
+verb
+--------synonyms---------
+crush
+rub
+-----------word----------
+gnashed
+--------word type--------
+verb
+--------synonyms---------
+crush
+rub
+-----------word----------
+gnashes
+--------word type--------
+verb
+--------synonyms---------
+crush
+rub
+-----------word----------
+gnashing
+--------word type--------
+verb
+--------synonyms---------
+crush
+rub
+-----------word----------
+gnat
+--------word type--------
+noun
+--------synonyms---------
+bee
+fly
+-----------word----------
+gnathal
+-----------word----------
+gnathic
+-----------word----------
+gnathion
+-----------word----------
+gnathite
+-----------word----------
+gnatlike
+-----------word----------
+gnats
+--------word type--------
+noun
+--------synonyms---------
+bee
+fly
+-----------word----------
+gnattier
+-----------word----------
+gnatty
+-----------word----------
+gnaw
+--------word type--------
+verb
+--------synonyms---------
+eat
+consume
+wear
+--------word type--------
+verb
+--------synonyms---------
+trouble
+-----------word----------
+gnawable
+-----------word----------
+gnawed
+--------word type--------
+verb
+--------synonyms---------
+eat
+consume
+wear
+--------word type--------
+verb
+--------synonyms---------
+trouble
+-----------word----------
+gnawer
+-----------word----------
+gnawers
+-----------word----------
+gnawing
+--------word type--------
+adj
+--------synonyms---------
+peaked
+pointed
+fine
+edged
+-----------word----------
+gnawings
+-----------word----------
+gnawn
+--------word type--------
+verb
+--------synonyms---------
+eat
+consume
+wear
+--------word type--------
+verb
+--------synonyms---------
+trouble
+-----------word----------
+gnaws
+--------word type--------
+verb
+--------synonyms---------
+eat
+consume
+wear
+--------word type--------
+verb
+--------synonyms---------
+trouble
+-----------word----------
+gneiss
+-----------word----------
+gneisses
+-----------word----------
+gneissic
+-----------word----------
+gnocchi
+--------word type--------
+noun
+--------synonyms---------
+shells
+-----------word----------
+gnome
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+gnomes
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+gnomic
+--------word type--------
+adj
+--------synonyms---------
+precise
+close
+exact
+lean
+neat
+pointed
+summary
+clipped
+-----------word----------
+gnomical
+-----------word----------
+gnomish
+-----------word----------
+gnomist
+-----------word----------
+gnomists
+-----------word----------
+gnomon
+--------word type--------
+noun
+--------synonyms---------
+clock
+watch
+calendar
+-----------word----------
+gnomonic
+-----------word----------
+gnomons
+--------word type--------
+noun
+--------synonyms---------
+clock
+watch
+calendar
+-----------word----------
+gnoses
+-----------word----------
+gnosis
+-----------word----------
+gnostic
+--------word type--------
+adj
+--------synonyms---------
+knowing
+bright
+brilliant
+critical
+intelligent
+sensitive
+sharp
+subtle
+wise
+--------word type--------
+adj
+--------synonyms---------
+knowing
+wise
+awake
+aware
+conscious
+quick
+rational
+sharp
+--------word type--------
+adj
+--------synonyms---------
+intelligent
+knowing
+rational
+sharp
+smooth
+wise
+-----------word----------
+gnu
+-----------word----------
+gnus

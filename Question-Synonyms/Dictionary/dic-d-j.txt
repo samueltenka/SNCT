@@ -1,0 +1,32 @@
+-----------word----------
+djebel
+-----------word----------
+djebels
+-----------word----------
+djellaba
+-----------word----------
+djin
+-----------word----------
+djinn
+--------word type--------
+noun
+--------synonyms---------
+beast
+monster
+-----------word----------
+djinni
+--------word type--------
+noun
+--------synonyms---------
+spirit
+-----------word----------
+djinns
+--------word type--------
+noun
+--------synonyms---------
+beast
+monster
+-----------word----------
+djinny
+-----------word----------
+djins

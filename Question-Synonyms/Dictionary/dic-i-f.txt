@@ -1,0 +1,36 @@
+-----------word----------
+if
+--------word type--------
+conj
+--------synonyms---------
+whenever
+-----------word----------
+iff
+-----------word----------
+iffier
+--------word type--------
+adj
+--------synonyms---------
+-----------word----------
+iffiest
+--------word type--------
+adj
+--------synonyms---------
+-----------word----------
+iffiness
+--------word type--------
+noun
+--------synonyms---------
+doubt
+uncertainty
+-----------word----------
+iffy
+--------word type--------
+adj
+--------synonyms---------
+-----------word----------
+ifs
+--------word type--------
+conj
+--------synonyms---------
+whenever

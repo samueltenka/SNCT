@@ -1,0 +1,45 @@
+-----------word----------
+ivied
+-----------word----------
+ivies
+-----------word----------
+ivories
+--------word type--------
+noun
+--------synonyms---------
+counters
+manual
+piano
+piece
+figure
+image
+sculpture
+marble
+bronze
+icon
+representation
+cast
+--------word type--------
+noun
+--------synonyms---------
+tooth
+lemon
+gold
+blond
+cream
+point
+-----------word----------
+ivory
+--------word type--------
+adj
+--------synonyms---------
+light
+neutral
+blond
+white
+pale
+faded
+-----------word----------
+ivy
+-----------word----------
+ivylike

@@ -1,0 +1,48 @@
+-----------word----------
+eke
+--------word type--------
+verb
+--------synonyms---------
+fill
+husband
+increase
+stretch
+-----------word----------
+eked
+--------word type--------
+verb
+--------synonyms---------
+fill
+husband
+increase
+stretch
+-----------word----------
+ekes
+--------word type--------
+verb
+--------synonyms---------
+fill
+husband
+increase
+stretch
+-----------word----------
+eking
+--------word type--------
+verb
+--------synonyms---------
+fill
+husband
+increase
+stretch
+-----------word----------
+ekistic
+-----------word----------
+ekistics
+-----------word----------
+ekpwele
+-----------word----------
+ekpweles
+-----------word----------
+ektexine
+-----------word----------
+ekuele

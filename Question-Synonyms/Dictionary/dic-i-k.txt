@@ -1,0 +1,28 @@
+-----------word----------
+ikat
+-----------word----------
+ikats
+-----------word----------
+ikebana
+-----------word----------
+ikebanas
+-----------word----------
+ikon
+--------word type--------
+noun
+--------synonyms---------
+portrait
+symbol
+figure
+picture
+representation
+-----------word----------
+ikons
+--------word type--------
+noun
+--------synonyms---------
+portrait
+symbol
+figure
+picture
+representation

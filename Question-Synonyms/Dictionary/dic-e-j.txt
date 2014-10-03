@@ -1,0 +1,61 @@
+-----------word----------
+eject
+--------word type--------
+verb
+--------synonyms---------
+dismiss
+sack
+eliminate
+exclude
+reject
+fire
+-----------word----------
+ejecta
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+ejected
+--------word type--------
+verb
+--------synonyms---------
+dismiss
+sack
+eliminate
+exclude
+reject
+fire
+-----------word----------
+ejecting
+--------word type--------
+verb
+--------synonyms---------
+dismiss
+sack
+eliminate
+exclude
+reject
+fire
+-----------word----------
+ejection
+--------word type--------
+noun
+--------synonyms---------
+removal
+-----------word----------
+ejective
+-----------word----------
+ejector
+-----------word----------
+ejectors
+-----------word----------
+ejects
+--------word type--------
+verb
+--------synonyms---------
+dismiss
+sack
+eliminate
+exclude
+reject
+fire

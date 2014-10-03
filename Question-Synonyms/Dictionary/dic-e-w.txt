@@ -1,0 +1,18 @@
+-----------word----------
+ewe
+-----------word----------
+ewer
+--------word type--------
+noun
+--------synonyms---------
+vessel
+pitcher
+-----------word----------
+ewers
+--------word type--------
+noun
+--------synonyms---------
+vessel
+pitcher
+-----------word----------
+ewes
