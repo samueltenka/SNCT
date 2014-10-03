@@ -1,0 +1,47 @@
+-----------word----------
+aa
+--------word type--------
+noun
+--------synonyms---------
+family
+therapy
+friends
+-----------word----------
+aah
+-----------word----------
+aahed
+-----------word----------
+aahing
+-----------word----------
+aahs
+-----------word----------
+aal
+-----------word----------
+aalii
+-----------word----------
+aaliis
+-----------word----------
+aals
+-----------word----------
+aardvark
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+aardwolf
+-----------word----------
+aargh
+-----------word----------
+aarrgh
+-----------word----------
+aarrghh
+-----------word----------
+aas
+--------word type--------
+noun
+--------synonyms---------
+family
+therapy
+friends
+-----------word----------
+aasvogel
