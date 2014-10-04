@@ -1,0 +1,29 @@
+-----------word----------
+svaraj
+-----------word----------
+svarajes
+-----------word----------
+svedberg
+-----------word----------
+svelte
+--------word type--------
+adj
+--------synonyms---------
+lean
+smooth
+-----------word----------
+sveltely
+-----------word----------
+svelter
+--------word type--------
+adj
+--------synonyms---------
+lean
+smooth
+-----------word----------
+sveltest
+--------word type--------
+adj
+--------synonyms---------
+lean
+smooth

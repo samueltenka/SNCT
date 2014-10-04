@@ -1,0 +1,14 @@
+-----------word----------
+pfennig
+-----------word----------
+pfennige
+-----------word----------
+pfennigs
+-----------word----------
+pfft
+--------word type--------
+adj
+--------synonyms---------
+finished
+-----------word----------
+pfui

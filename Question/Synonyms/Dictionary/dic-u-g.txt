@@ -1,0 +1,149 @@
+-----------word----------
+ugh
+--------word type--------
+noun
+--------synonyms---------
+wow
+hello
+-----------word----------
+ughs
+--------word type--------
+noun
+--------synonyms---------
+wow
+hello
+-----------word----------
+uglier
+--------word type--------
+adj
+--------synonyms---------
+awful
+animal
+gross
+plain
+--------word type--------
+adj
+--------synonyms---------
+terrible
+dirty
+nasty
+shocking
+base
+low
+mean
+offensive
+sorry
+--------word type--------
+adj
+--------synonyms---------
+evil
+dark
+violent
+serious
+nasty
+rough
+angry
+black
+fell
+forbidding
+grave
+major
+-----------word----------
+uglies
+--------word type--------
+noun
+--------synonyms---------
+woman
+ugly
+-----------word----------
+ugliest
+--------word type--------
+adj
+--------synonyms---------
+awful
+animal
+gross
+plain
+--------word type--------
+adj
+--------synonyms---------
+terrible
+dirty
+nasty
+shocking
+base
+low
+mean
+offensive
+sorry
+--------word type--------
+adj
+--------synonyms---------
+evil
+dark
+violent
+serious
+nasty
+rough
+angry
+black
+fell
+forbidding
+grave
+major
+-----------word----------
+uglified
+-----------word----------
+uglifier
+-----------word----------
+uglifies
+-----------word----------
+uglify
+-----------word----------
+uglily
+-----------word----------
+ugliness
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+ugly
+--------word type--------
+adj
+--------synonyms---------
+awful
+animal
+gross
+plain
+--------word type--------
+adj
+--------synonyms---------
+terrible
+dirty
+nasty
+shocking
+base
+low
+mean
+offensive
+sorry
+--------word type--------
+adj
+--------synonyms---------
+evil
+dark
+violent
+serious
+nasty
+rough
+angry
+black
+fell
+forbidding
+grave
+major
+-----------word----------
+ugsome

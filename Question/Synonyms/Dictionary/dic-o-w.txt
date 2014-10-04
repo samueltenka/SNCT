@@ -1,0 +1,220 @@
+-----------word----------
+ow
+-----------word----------
+owe
+--------word type--------
+verb
+--------synonyms---------
+lost
+behind
+-----------word----------
+owed
+--------word type--------
+adj
+--------synonyms---------
+expected
+scheduled
+owing
+outstanding
+-----------word----------
+owes
+--------word type--------
+verb
+--------synonyms---------
+lost
+behind
+-----------word----------
+owing
+--------word type--------
+adj
+--------synonyms---------
+owed
+due
+outstanding
+-----------word----------
+owl
+--------word type--------
+noun
+--------synonyms---------
+criminal
+clip
+cheat
+--------word type--------
+noun
+--------synonyms---------
+clip
+cheat
+criminal
+--------word type--------
+noun
+--------synonyms---------
+clip
+cheat
+criminal
+--------word type--------
+noun
+--------synonyms---------
+cheat
+clip
+criminal
+clip
+cheat
+criminal
+-----------word----------
+owlet
+-----------word----------
+owlets
+-----------word----------
+owlish
+-----------word----------
+owlishly
+-----------word----------
+owllike
+-----------word----------
+owls
+--------word type--------
+noun
+--------synonyms---------
+criminal
+clip
+cheat
+--------word type--------
+noun
+--------synonyms---------
+clip
+cheat
+criminal
+--------word type--------
+noun
+--------synonyms---------
+clip
+cheat
+criminal
+--------word type--------
+noun
+--------synonyms---------
+cheat
+clip
+criminal
+clip
+cheat
+criminal
+-----------word----------
+own
+--------word type--------
+adj
+--------synonyms---------
+owned
+mine
+individual
+inherent
+particular
+personal
+private
+resident
+control
+enjoy
+dominate
+boast
+keep
+occupy
+have
+retain
+hold
+inherit
+reserve
+--------word type--------
+verb
+--------synonyms---------
+disclose
+grant
+recognize
+confess
+concede
+allow
+declare
+-----------word----------
+ownable
+-----------word----------
+owned
+--------word type--------
+adj
+--------synonyms---------
+kept
+held
+inherited
+retained
+bought
+purchased
+had
+enjoyed
+-----------word----------
+owner
+--------word type--------
+noun
+--------synonyms---------
+partner
+governor
+-----------word----------
+owners
+--------word type--------
+noun
+--------synonyms---------
+partner
+governor
+-----------word----------
+owning
+--------word type--------
+verb
+--------synonyms---------
+control
+enjoy
+dominate
+boast
+keep
+occupy
+have
+retain
+hold
+inherit
+reserve
+--------word type--------
+verb
+--------synonyms---------
+disclose
+grant
+recognize
+confess
+concede
+allow
+declare
+-----------word----------
+owns
+--------word type--------
+verb
+--------synonyms---------
+control
+enjoy
+dominate
+boast
+keep
+occupy
+have
+retain
+hold
+inherit
+reserve
+--------word type--------
+verb
+--------synonyms---------
+disclose
+grant
+recognize
+confess
+concede
+allow
+declare
+-----------word----------
+owse
+-----------word----------
+owsen

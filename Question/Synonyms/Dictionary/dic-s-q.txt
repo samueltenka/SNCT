@@ -1,0 +1,1319 @@
+-----------word----------
+squab
+--------word type--------
+noun
+--------synonyms---------
+rest
+seat
+-----------word----------
+squabble
+--------word type--------
+noun
+--------synonyms---------
+difference
+controversy
+dispute
+spat
+fight
+words
+--------word type--------
+verb
+--------synonyms---------
+disagree
+fight
+encounter
+row
+spat
+dispute
+-----------word----------
+squabby
+-----------word----------
+squabs
+--------word type--------
+noun
+--------synonyms---------
+rest
+seat
+-----------word----------
+squad
+--------word type--------
+noun
+--------synonyms---------
+division
+group
+band
+gang
+force
+troop
+company
+-----------word----------
+squadded
+-----------word----------
+squadron
+--------word type--------
+noun
+--------synonyms---------
+fleet
+squad
+unit
+-----------word----------
+squads
+--------word type--------
+noun
+--------synonyms---------
+division
+group
+band
+gang
+force
+troop
+company
+-----------word----------
+squalene
+-----------word----------
+squalid
+--------word type--------
+adj
+--------synonyms---------
+base
+dirty
+horrible
+low
+mean
+nasty
+offensive
+ugly
+soiled
+-----------word----------
+squall
+--------word type--------
+noun
+--------synonyms---------
+shower
+storm
+trouble
+blast
+wind
+--------word type--------
+noun
+--------synonyms---------
+draft
+storm
+-----------word----------
+squalled
+--------word type--------
+verb
+--------synonyms---------
+yell
+scream
+--------word type--------
+verb
+--------synonyms---------
+sigh
+complain
+regret
+--------word type--------
+verb
+--------synonyms---------
+cheer
+yell
+scream
+bay
+--------word type--------
+verb
+--------synonyms---------
+tear
+assault
+rip
+charge
+strike
+spit
+rain
+complain
+fly
+rage
+drop
+pour
+--------word type--------
+verb
+--------synonyms---------
+bay
+complain
+kick
+--------word type--------
+verb
+--------synonyms---------
+complain
+--------word type--------
+noun
+--------synonyms---------
+cry
+bay
+yell
+scream
+-----------word----------
+squaller
+-----------word----------
+squalls
+--------word type--------
+noun
+--------synonyms---------
+shower
+storm
+trouble
+blast
+wind
+--------word type--------
+noun
+--------synonyms---------
+draft
+storm
+-----------word----------
+squally
+--------word type--------
+adj
+--------synonyms---------
+blowing
+fresh
+--------word type--------
+adj
+--------synonyms---------
+--------word type--------
+adj
+--------synonyms---------
+dry
+harsh
+raging
+jarring
+wild
+--------word type--------
+adj
+--------synonyms---------
+violent
+wet
+bitter
+cold
+dirty
+pouring
+raging
+threatening
+wild
+storming
+--------word type--------
+adj
+--------synonyms---------
+heated
+emotional
+excited
+intense
+raging
+rough
+violent
+storming
+--------word type--------
+adj
+--------synonyms---------
+blowing
+fresh
+raw
+wild
+--------word type--------
+adj
+--------synonyms---------
+blowing
+dry
+raging
+dirty
+jarring
+harsh
+violent
+wild
+dirty
+dry
+harsh
+jarring
+raging
+violent
+wild
+dry
+wild
+harsh
+jarring
+raging
+-----------word----------
+squalor
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+squalors
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+squama
+-----------word----------
+squamae
+-----------word----------
+squamate
+-----------word----------
+squamose
+-----------word----------
+squamous
+-----------word----------
+squander
+--------word type--------
+verb
+--------synonyms---------
+waste
+consume
+spend
+scatter
+-----------word----------
+square
+--------word type--------
+adj
+--------synonyms---------
+even
+fair
+straight
+equal
+objective
+sporting
+decent
+ethical
+just
+--------word type--------
+adj
+--------synonyms---------
+squared
+--------word type--------
+adj
+--------synonyms---------
+dated
+conservative
+--------word type--------
+noun
+--------synonyms---------
+conservative
+--------word type--------
+noun
+--------synonyms---------
+center
+space
+area
+green
+circle
+common
+fit
+balance
+match
+--------word type--------
+verb
+--------synonyms---------
+quit
+buy
+pay
+clear
+settle
+have
+balance
+fix
+--------word type--------
+verb
+--------synonyms---------
+fit
+level
+accommodate
+adjust
+suit
+true
+-----------word----------
+squared
+--------word type--------
+verb
+--------synonyms---------
+fit
+balance
+match
+--------word type--------
+verb
+--------synonyms---------
+quit
+buy
+pay
+clear
+settle
+have
+balance
+fix
+--------word type--------
+verb
+--------synonyms---------
+fit
+level
+accommodate
+adjust
+suit
+true
+-----------word----------
+squarely
+--------word type--------
+adv
+--------synonyms---------
+fairly
+-----------word----------
+squarer
+--------word type--------
+adj
+--------synonyms---------
+even
+fair
+straight
+equal
+objective
+sporting
+decent
+ethical
+just
+--------word type--------
+adj
+--------synonyms---------
+squared
+--------word type--------
+adj
+--------synonyms---------
+dated
+conservative
+-----------word----------
+squarers
+-----------word----------
+squares
+--------word type--------
+noun
+--------synonyms---------
+conservative
+--------word type--------
+noun
+--------synonyms---------
+center
+space
+area
+green
+circle
+common
+fit
+balance
+match
+--------word type--------
+verb
+--------synonyms---------
+quit
+buy
+pay
+clear
+settle
+have
+balance
+fix
+--------word type--------
+verb
+--------synonyms---------
+fit
+level
+accommodate
+adjust
+suit
+true
+-----------word----------
+squarest
+--------word type--------
+adj
+--------synonyms---------
+even
+fair
+straight
+equal
+objective
+sporting
+decent
+ethical
+just
+--------word type--------
+adj
+--------synonyms---------
+squared
+--------word type--------
+adj
+--------synonyms---------
+dated
+conservative
+-----------word----------
+squaring
+--------word type--------
+verb
+--------synonyms---------
+fit
+balance
+match
+--------word type--------
+verb
+--------synonyms---------
+quit
+buy
+pay
+clear
+settle
+have
+balance
+fix
+--------word type--------
+verb
+--------synonyms---------
+fit
+level
+accommodate
+adjust
+suit
+true
+-----------word----------
+squarish
+--------word type--------
+adj
+--------synonyms---------
+squared
+-----------word----------
+squash
+--------word type--------
+verb
+--------synonyms---------
+crush
+pound
+crowd
+bear
+push
+kill
+press
+squeeze
+-----------word----------
+squashed
+--------word type--------
+verb
+--------synonyms---------
+crush
+pound
+crowd
+bear
+push
+kill
+press
+squeeze
+-----------word----------
+squasher
+-----------word----------
+squashes
+--------word type--------
+verb
+--------synonyms---------
+crush
+pound
+crowd
+bear
+push
+kill
+press
+squeeze
+-----------word----------
+squashy
+--------word type--------
+adj
+--------synonyms---------
+yielding
+-----------word----------
+squat
+--------word type--------
+adj
+--------synonyms---------
+heavy
+thick
+fat
+broad
+--------word type--------
+verb
+--------synonyms---------
+sit
+settle
+bow
+-----------word----------
+squatly
+-----------word----------
+squats
+--------word type--------
+verb
+--------synonyms---------
+sit
+settle
+bow
+-----------word----------
+squatted
+--------word type--------
+verb
+--------synonyms---------
+sit
+settle
+bow
+-----------word----------
+squatter
+--------word type--------
+noun
+--------synonyms---------
+pioneer
+-----------word----------
+squatty
+--------word type--------
+adj
+--------synonyms---------
+small
+flat
+little
+below
+depressed
+lowering
+shallow
+sunken
+bottom
+level
+deep
+minor
+junior
+beneath
+lesser
+profound
+under
+--------word type--------
+adj
+--------synonyms---------
+small
+thick
+tiny
+low
+little
+slight
+pocket
+-----------word----------
+squaw
+--------word type--------
+noun
+--------synonyms---------
+girl
+queen
+adult
+female
+doll
+rib
+broad
+bag
+-----------word----------
+squawk
+--------word type--------
+verb
+--------synonyms---------
+cry
+--------word type--------
+verb
+--------synonyms---------
+protest
+complain
+-----------word----------
+squawked
+--------word type--------
+verb
+--------synonyms---------
+cry
+--------word type--------
+verb
+--------synonyms---------
+protest
+complain
+-----------word----------
+squawker
+-----------word----------
+squawks
+--------word type--------
+verb
+--------synonyms---------
+cry
+--------word type--------
+verb
+--------synonyms---------
+protest
+complain
+-----------word----------
+squaws
+--------word type--------
+noun
+--------synonyms---------
+girl
+queen
+adult
+female
+doll
+rib
+broad
+bag
+-----------word----------
+squeak
+--------word type--------
+verb
+--------synonyms---------
+sound
+pipe
+cry
+sing
+scream
+talk
+-----------word----------
+squeaked
+--------word type--------
+verb
+--------synonyms---------
+sound
+pipe
+cry
+sing
+scream
+talk
+-----------word----------
+squeaker
+--------word type--------
+noun
+--------synonyms---------
+rat
+-----------word----------
+squeaks
+--------word type--------
+verb
+--------synonyms---------
+sound
+pipe
+cry
+sing
+scream
+talk
+-----------word----------
+squeaky
+--------word type--------
+adj
+--------synonyms---------
+-----------word----------
+squeal
+--------word type--------
+verb
+--------synonyms---------
+shout
+scream
+--------word type--------
+verb
+--------synonyms---------
+complain
+protest
+tell
+talk
+-----------word----------
+squealed
+--------word type--------
+verb
+--------synonyms---------
+shout
+scream
+--------word type--------
+verb
+--------synonyms---------
+complain
+protest
+tell
+talk
+-----------word----------
+squealer
+--------word type--------
+noun
+--------synonyms---------
+rat
+-----------word----------
+squeals
+--------word type--------
+verb
+--------synonyms---------
+shout
+scream
+--------word type--------
+verb
+--------synonyms---------
+complain
+protest
+tell
+talk
+-----------word----------
+squeegee
+--------word type--------
+noun
+--------synonyms---------
+wipe
+pat
+rub
+wash
+dust
+-----------word----------
+squeeze
+--------word type--------
+noun
+--------synonyms---------
+hug
+force
+crowd
+influence
+crush
+embrace
+press
+hold
+--------word type--------
+verb
+--------synonyms---------
+grip
+crush
+stuff
+press
+pack
+force
+crowd
+embrace
+clip
+hug
+bear
+contract
+--------word type--------
+verb
+--------synonyms---------
+milk
+pressure
+-----------word----------
+squeezed
+--------word type--------
+verb
+--------synonyms---------
+grip
+crush
+stuff
+press
+pack
+force
+crowd
+embrace
+clip
+hug
+bear
+contract
+--------word type--------
+verb
+--------synonyms---------
+milk
+pressure
+-----------word----------
+squeezer
+-----------word----------
+squeezes
+--------word type--------
+noun
+--------synonyms---------
+hug
+force
+crowd
+influence
+crush
+embrace
+press
+hold
+--------word type--------
+verb
+--------synonyms---------
+grip
+crush
+stuff
+press
+pack
+force
+crowd
+embrace
+clip
+hug
+bear
+contract
+--------word type--------
+verb
+--------synonyms---------
+milk
+pressure
+-----------word----------
+squeg
+-----------word----------
+squegged
+-----------word----------
+squegs
+-----------word----------
+squelch
+--------word type--------
+verb
+--------synonyms---------
+crush
+settle
+kill
+-----------word----------
+squelchy
+-----------word----------
+squib
+--------word type--------
+noun
+--------synonyms---------
+exhibit
+announcement
+notice
+literature
+publicity
+publication
+poster
+commercial
+display
+broadcast
+ad
+communication
+bill
+exhibition
+promotion
+--------word type--------
+noun
+--------synonyms---------
+pitch
+announcement
+spread
+exhibition
+publicity
+posting
+broadcasting
+promotion
+displaying
+billing
+promoting
+blasting
+exhibiting
+announcing
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+verb
+--------synonyms---------
+rail
+--------word type--------
+noun
+--------synonyms---------
+advice
+comment
+story
+picture
+instruction
+criticism
+order
+note
+warning
+poster
+news
+review
+communication
+sign
+tip
+cue
+score
+intelligence
+clue
+remark
+comments
+--------word type--------
+noun
+--------synonyms---------
+humor
+joke
+joking
+--------word type--------
+noun
+--------synonyms---------
+notice
+publicity
+pushing
+advertising
+pitch
+--------word type--------
+noun
+--------synonyms---------
+irony
+--------word type--------
+noun
+--------synonyms---------
+irony
+-----------word----------
+squibbed
+--------word type--------
+verb
+--------synonyms---------
+rail
+-----------word----------
+squibs
+--------word type--------
+noun
+--------synonyms---------
+exhibit
+announcement
+notice
+literature
+publicity
+publication
+poster
+commercial
+display
+broadcast
+ad
+communication
+bill
+exhibition
+promotion
+--------word type--------
+noun
+--------synonyms---------
+pitch
+announcement
+spread
+exhibition
+publicity
+posting
+broadcasting
+promotion
+displaying
+billing
+promoting
+blasting
+exhibiting
+announcing
+--------word type--------
+noun
+--------synonyms---------
+--------word type--------
+verb
+--------synonyms---------
+rail
+--------word type--------
+noun
+--------synonyms---------
+advice
+comment
+story
+picture
+instruction
+criticism
+order
+note
+warning
+poster
+news
+review
+communication
+sign
+tip
+cue
+score
+intelligence
+clue
+remark
+comments
+--------word type--------
+noun
+--------synonyms---------
+humor
+joke
+joking
+--------word type--------
+noun
+--------synonyms---------
+notice
+publicity
+pushing
+advertising
+pitch
+--------word type--------
+noun
+--------synonyms---------
+irony
+--------word type--------
+noun
+--------synonyms---------
+irony
+-----------word----------
+squid
+-----------word----------
+squidded
+-----------word----------
+squids
+-----------word----------
+squiffed
+-----------word----------
+squiffy
+-----------word----------
+squiggle
+--------word type--------
+verb
+--------synonyms---------
+twist
+-----------word----------
+squiggly
+--------word type--------
+adj
+--------synonyms---------
+curved
+rolling
+winding
+waving
+-----------word----------
+squilgee
+-----------word----------
+squill
+-----------word----------
+squilla
+-----------word----------
+squillae
+-----------word----------
+squillas
+-----------word----------
+squills
+-----------word----------
+squinch
+--------word type--------
+verb
+--------synonyms---------
+look
+--------word type--------
+verb
+--------synonyms---------
+buck
+shy
+leap
+bounce
+bound
+jump
+bolt
+spring
+shrink
+--------word type--------
+noun
+--------synonyms---------
+flash
+bat
+blink
+-----------word----------
+squinny
+-----------word----------
+squint
+--------word type--------
+verb
+--------synonyms---------
+look
+-----------word----------
+squinted
+--------word type--------
+verb
+--------synonyms---------
+look
+-----------word----------
+squinter
+--------word type--------
+adj
+--------synonyms---------
+crazy
+--------word type--------
+adj
+--------synonyms---------
+-----------word----------
+squints
+--------word type--------
+verb
+--------synonyms---------
+look
+-----------word----------
+squinty
+-----------word----------
+squire
+--------word type--------
+verb
+--------synonyms---------
+attend
+assist
+serve
+companion
+date
+-----------word----------
+squired
+--------word type--------
+verb
+--------synonyms---------
+attend
+assist
+serve
+companion
+date
+-----------word----------
+squireen
+-----------word----------
+squires
+--------word type--------
+verb
+--------synonyms---------
+attend
+assist
+serve
+companion
+date
+-----------word----------
+squiring
+--------word type--------
+verb
+--------synonyms---------
+attend
+assist
+serve
+companion
+date
+-----------word----------
+squirish
+-----------word----------
+squirm
+--------word type--------
+verb
+--------synonyms---------
+twist
+shift
+toss
+wind
+-----------word----------
+squirmed
+--------word type--------
+verb
+--------synonyms---------
+twist
+shift
+toss
+wind
+-----------word----------
+squirmer
+-----------word----------
+squirms
+--------word type--------
+verb
+--------synonyms---------
+twist
+shift
+toss
+wind
+-----------word----------
+squirmy
+-----------word----------
+squirrel
+--------word type--------
+verb
+--------synonyms---------
+save
+treasure
+hide
+collect
+gather
+deposit
+keep
+store
+acquire
+-----------word----------
+squirt
+--------word type--------
+verb
+--------synonyms---------
+sprinkle
+spit
+pour
+spray
+stream
+flow
+jet
+-----------word----------
+squirted
+--------word type--------
+verb
+--------synonyms---------
+sprinkle
+spit
+pour
+spray
+stream
+flow
+jet
+-----------word----------
+squirter
+-----------word----------
+squirts
+--------word type--------
+verb
+--------synonyms---------
+sprinkle
+spit
+pour
+spray
+stream
+flow
+jet
+-----------word----------
+squish
+--------word type--------
+verb
+--------synonyms---------
+pound
+crush
+press
+squeeze
+-----------word----------
+squished
+--------word type--------
+verb
+--------synonyms---------
+pound
+crush
+press
+squeeze
+-----------word----------
+squishes
+--------word type--------
+verb
+--------synonyms---------
+pound
+crush
+press
+squeeze
+-----------word----------
+squishy
+--------word type--------
+adj
+--------synonyms---------
+yielding
+-----------word----------
+squoosh
+-----------word----------
+squooshy
+-----------word----------
+squush
+-----------word----------
+squushed
+-----------word----------
+squushes

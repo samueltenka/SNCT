@@ -1,0 +1,136 @@
+-----------word----------
+vug
+-----------word----------
+vugg
+-----------word----------
+vuggier
+-----------word----------
+vuggiest
+-----------word----------
+vuggs
+-----------word----------
+vuggy
+-----------word----------
+vugh
+-----------word----------
+vughs
+-----------word----------
+vugs
+-----------word----------
+vulcanic
+-----------word----------
+vulgar
+--------word type--------
+adj
+--------synonyms---------
+nasty
+base
+cheap
+common
+dirty
+low
+raw
+rough
+sneaking
+--------word type--------
+adj
+--------synonyms---------
+everyday
+familiar
+low
+native
+ordinary
+plastic
+popular
+public
+-----------word----------
+vulgarer
+-----------word----------
+vulgarly
+--------word type--------
+adv
+--------synonyms---------
+fully
+--------word type--------
+adv
+--------synonyms---------
+roughly
+sharply
+-----------word----------
+vulgars
+-----------word----------
+vulgate
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+vulgates
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+vulgo
+-----------word----------
+vulgus
+--------word type--------
+noun
+--------synonyms---------
+infrastructure
+masses
+-----------word----------
+vulguses
+--------word type--------
+noun
+--------synonyms---------
+infrastructure
+masses
+-----------word----------
+vulpine
+--------word type--------
+adj
+--------synonyms---------
+cunning
+-----------word----------
+vulture
+--------word type--------
+noun
+--------synonyms---------
+rat
+-----------word----------
+vultures
+--------word type--------
+noun
+--------synonyms---------
+rat
+-----------word----------
+vulva
+--------word type--------
+noun
+--------synonyms---------
+nuts
+privates
+stones
+-----------word----------
+vulvae
+--------word type--------
+noun
+--------synonyms---------
+nuts
+privates
+stones
+-----------word----------
+vulval
+-----------word----------
+vulvar
+-----------word----------
+vulvas
+--------word type--------
+noun
+--------synonyms---------
+nuts
+privates
+stones
+-----------word----------
+vulvate
+-----------word----------
+vulvitis

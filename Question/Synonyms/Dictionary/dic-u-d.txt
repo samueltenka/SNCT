@@ -1,0 +1,25 @@
+-----------word----------
+udder
+--------word type--------
+noun
+--------synonyms---------
+chest
+front
+-----------word----------
+udders
+--------word type--------
+noun
+--------synonyms---------
+chest
+front
+-----------word----------
+udo
+-----------word----------
+udometer
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+udometry
+-----------word----------
+udos

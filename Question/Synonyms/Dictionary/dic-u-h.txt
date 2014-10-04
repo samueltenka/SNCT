@@ -1,0 +1,16 @@
+-----------word----------
+uh
+-----------word----------
+uhlan
+--------word type--------
+noun
+--------synonyms---------
+horse
+army
+-----------word----------
+uhlans
+--------word type--------
+noun
+--------synonyms---------
+horse
+army

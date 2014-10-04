@@ -1,0 +1,204 @@
+-----------word----------
+yuan
+-----------word----------
+yuans
+-----------word----------
+yuca
+-----------word----------
+yucas
+-----------word----------
+yucca
+-----------word----------
+yuccas
+-----------word----------
+yucch
+-----------word----------
+yuch
+-----------word----------
+yuck
+--------word type--------
+noun
+--------synonyms---------
+fit
+gesture
+shout
+sound
+--------word type--------
+noun
+--------synonyms---------
+gesture
+shout
+laugh
+sound
+fit
+shouting
+--------word type--------
+noun
+--------synonyms---------
+fit
+gesture
+laughter
+shout
+sound
+-----------word----------
+yucked
+-----------word----------
+yuckier
+--------word type--------
+adj
+--------synonyms---------
+awful
+gross
+nasty
+offensive
+-----------word----------
+yuckiest
+--------word type--------
+adj
+--------synonyms---------
+awful
+gross
+nasty
+offensive
+-----------word----------
+yucking
+-----------word----------
+yucks
+--------word type--------
+noun
+--------synonyms---------
+fit
+gesture
+shout
+sound
+--------word type--------
+noun
+--------synonyms---------
+gesture
+shout
+laugh
+sound
+fit
+shouting
+--------word type--------
+noun
+--------synonyms---------
+fit
+gesture
+laughter
+shout
+sound
+-----------word----------
+yucky
+--------word type--------
+adj
+--------synonyms---------
+awful
+gross
+nasty
+offensive
+-----------word----------
+yuga
+-----------word----------
+yugas
+-----------word----------
+yuk
+-----------word----------
+yukked
+-----------word----------
+yukking
+-----------word----------
+yuks
+-----------word----------
+yulan
+-----------word----------
+yulans
+-----------word----------
+yule
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+yules
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+yuletide
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+yum
+-----------word----------
+yummier
+--------word type--------
+adj
+--------synonyms---------
+choice
+divine
+good
+pleasant
+rich
+super
+sweet
+-----------word----------
+yummies
+-----------word----------
+yummiest
+--------word type--------
+adj
+--------synonyms---------
+choice
+divine
+good
+pleasant
+rich
+super
+sweet
+-----------word----------
+yummy
+--------word type--------
+adj
+--------synonyms---------
+choice
+divine
+good
+pleasant
+rich
+super
+sweet
+-----------word----------
+yup
+-----------word----------
+yupon
+-----------word----------
+yupons
+-----------word----------
+yuppie
+--------word type--------
+noun
+--------synonyms---------
+suit
+-----------word----------
+yuppies
+--------word type--------
+noun
+--------synonyms---------
+suit
+-----------word----------
+yups
+-----------word----------
+yurt
+--------word type--------
+noun
+--------synonyms---------
+canvas
+-----------word----------
+yurta
+-----------word----------
+yurts
+--------word type--------
+noun
+--------synonyms---------
+canvas

@@ -1,0 +1,298 @@
+-----------word----------
+ulama
+-----------word----------
+ulamas
+-----------word----------
+ulan
+-----------word----------
+ulans
+-----------word----------
+ulcer
+--------word type--------
+noun
+--------synonyms---------
+boil
+boil
+-----------word----------
+ulcerate
+--------word type--------
+verb
+--------synonyms---------
+gather
+-----------word----------
+ulcered
+--------word type--------
+verb
+--------synonyms---------
+consume
+ruin
+--------word type--------
+verb
+--------synonyms---------
+gather
+-----------word----------
+ulcering
+--------word type--------
+verb
+--------synonyms---------
+consume
+ruin
+--------word type--------
+verb
+--------synonyms---------
+gather
+-----------word----------
+ulcerous
+--------word type--------
+adj
+--------synonyms---------
+-----------word----------
+ulcers
+--------word type--------
+noun
+--------synonyms---------
+boil
+boil
+-----------word----------
+ulema
+-----------word----------
+ulemas
+-----------word----------
+ulexite
+-----------word----------
+ulexites
+-----------word----------
+ullage
+-----------word----------
+ullaged
+-----------word----------
+ullages
+-----------word----------
+ulna
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+ulnad
+-----------word----------
+ulnae
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+ulnar
+-----------word----------
+ulnas
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+ulpan
+-----------word----------
+ulpanim
+-----------word----------
+ulster
+--------word type--------
+noun
+--------synonyms---------
+jacket
+suit
+wrap
+threads
+tails
+-----------word----------
+ulsters
+--------word type--------
+noun
+--------synonyms---------
+jacket
+suit
+wrap
+threads
+tails
+-----------word----------
+ulterior
+--------word type--------
+adj
+--------synonyms---------
+dark
+guarded
+hidden
+implied
+personal
+remote
+secondary
+buried
+-----------word----------
+ultima
+-----------word----------
+ultimacy
+-----------word----------
+ultimas
+-----------word----------
+ultimata
+--------word type--------
+noun
+--------synonyms---------
+warning
+conditions
+demand
+-----------word----------
+ultimate
+--------word type--------
+adj
+--------synonyms---------
+end
+latter
+closing
+extreme
+latest
+farthest
+furthest
+concluding
+capping
+most distant
+--------word type--------
+adj
+--------synonyms---------
+maximum
+extreme
+highest
+most
+significant
+towering
+--------word type--------
+adj
+--------synonyms---------
+basic
+absolute
+primary
+radical
+-----------word----------
+ultimo
+-----------word----------
+ultra
+--------word type--------
+adj
+--------synonyms---------
+excessive
+radical
+revolutionary
+-----------word----------
+ultradry
+-----------word----------
+ultrahip
+-----------word----------
+ultrahot
+-----------word----------
+ultraism
+-----------word----------
+ultraist
+--------word type--------
+noun
+--------synonyms---------
+radical
+revolutionary
+--------word type--------
+noun
+--------synonyms---------
+radical
+fool
+crazy
+--------word type--------
+adj
+--------synonyms---------
+crazy
+extreme
+mad
+radical
+raging
+revolutionary
+violent
+wild
+bitten
+flipped
+--------word type--------
+adj
+--------synonyms---------
+revolutionary
+progressive
+violent
+sweeping
+entire
+advanced
+complete
+excessive
+severe
+--------word type--------
+noun
+--------synonyms---------
+revolutionary
+progressive
+rebel
+--------word type--------
+noun
+--------synonyms---------
+revolutionary
+radical
+-----------word----------
+ultralow
+-----------word----------
+ultrared
+-----------word----------
+ultras
+--------word type--------
+noun
+--------synonyms---------
+radical
+revolutionary
+--------word type--------
+noun
+--------synonyms---------
+radical
+nut
+--------word type--------
+noun
+--------synonyms---------
+revolutionary
+radical
+-----------word----------
+ulu
+-----------word----------
+ululant
+-----------word----------
+ululate
+--------word type--------
+verb
+--------synonyms---------
+shout
+quest
+bay
+yell
+scream
+-----------word----------
+ululated
+--------word type--------
+verb
+--------synonyms---------
+shout
+quest
+bay
+yell
+scream
+-----------word----------
+ululates
+--------word type--------
+verb
+--------synonyms---------
+shout
+quest
+bay
+yell
+scream
+-----------word----------
+ulus
+-----------word----------
+ulva
+-----------word----------
+ulvas

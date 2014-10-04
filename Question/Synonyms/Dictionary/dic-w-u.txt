@@ -1,0 +1,76 @@
+-----------word----------
+wud
+-----------word----------
+wurst
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+wursts
+--------word type--------
+noun
+--------synonyms---------
+-----------word----------
+wurzel
+-----------word----------
+wurzels
+-----------word----------
+wuss
+--------word type--------
+noun
+--------synonyms---------
+critic
+yellow
+yellow
+baby
+baby
+chicken
+-----------word----------
+wusses
+--------word type--------
+noun
+--------synonyms---------
+critic
+yellow
+yellow
+baby
+baby
+chicken
+-----------word----------
+wussier
+--------word type--------
+adj
+--------synonyms---------
+scared
+-----------word----------
+wussies
+--------word type--------
+noun
+--------synonyms---------
+yellow
+yellow
+baby
+-----------word----------
+wussiest
+--------word type--------
+adj
+--------synonyms---------
+scared
+-----------word----------
+wussy
+--------word type--------
+adj
+--------synonyms---------
+scared
+--------word type--------
+noun
+--------synonyms---------
+yellow
+yellow
+baby
+-----------word----------
+wuther
+-----------word----------
+wuthered
+-----------word----------
+wuthers

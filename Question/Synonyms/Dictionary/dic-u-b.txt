@@ -1,0 +1,29 @@
+-----------word----------
+ubieties
+--------word type--------
+noun
+--------synonyms---------
+existence
+being
+company
+residence
+occupation
+-----------word----------
+ubiety
+--------word type--------
+noun
+--------synonyms---------
+existence
+being
+company
+residence
+occupation
+-----------word----------
+ubique
+-----------word----------
+ubiquity
+--------word type--------
+noun
+--------synonyms---------
+universal
+presence
