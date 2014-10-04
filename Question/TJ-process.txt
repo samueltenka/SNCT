@@ -2,26 +2,25 @@ Week1:
 Week2:
 Week3:
   Task:
-    - Synonyms:
-      x using webRequeset to Dictionary.com
-        - takes too much time: 1~2s/word.
-      x using API
-        - limited function call.
-        - limited word coverage
-        - less feature compare to Dictionary.com
-      v "downloading" dictionary from Dictionary.com
-        - no significant time cost
-        - almost full coverage on English
-        - can be optimized or updated
-        - many features
-        
-    - Part of Speech:
+    v Synonyms:
+      x using webRequeset to Dictionary.com (c#)
+        x takes too much time: 1~2s/word.
+      x using API (c#)
+        x limited function call.
+        x limited word coverage
+        x less feature compare to Dictionary.com
+      v "downloading" dictionary from Dictionary.com (c#)
+        v no significant time cost
+        v almost full coverage on English
+        v can be optimized or updated
+        v many features (synonyms, related words, part of speech, antonym, highligtes commons, informals)
+    v Part of Speech (c++)
       v "downloading" dictionary fro Dictionary.com
       
-    - Paraphrasing:
-      v using Microsoft Translating API
-        - paraphrasing by translating English to English
-        - can specifie the number of paraphrases need
+    v Paraphrasing
+      v using Microsoft Translating API (c#)
+        v paraphrasing by translating English to English
+        v can specifie the number of paraphrases need
         * takes couple of seconds
 
 * need to be fixed
