@@ -14,9 +14,10 @@ Week3:
         v almost full coverage on English
         v can be optimized or updated
         v many features (synonyms, related words, part of speech, antonym, highligtes commons, informals)
+
     v Part of Speech (c++)
       v "downloading" dictionary fro Dictionary.com
-      
+
     v Paraphrasing
       v using Microsoft Translating API (c#)
         v paraphrasing by translating English to English
