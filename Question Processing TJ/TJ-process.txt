@@ -14,7 +14,7 @@ Week3:
         v almost full coverage on English
         v can be optimized or updated
         v many features (synonyms, related words, part of speech, antonym, highligtes commons, informals)
-        * need to update new words that are not in Dictionary that downloaded
+        * need to keep updating. only works for words has synonyms that are common
 
     v Part of Speech (c++)
       v "downloading" dictionary fro Dictionary.com
