@@ -14,18 +14,23 @@ Week3:
         v almost full coverage on English
         v can be optimized or updated
         v many features (synonyms, related words, part of speech, antonym, highligtes commons, informals)
-        * need to keep updating.
-        * only returns common synonyms
-        * should return all part of speeches
+        * should keep updating
+        * should return all part of speech
         * should update a new word
+	- only returns common synonyms (otherwise too much) so there is some words don't have synonyms at all
 
     v Part of Speech (c++)
       v "downloading" dictionary fro Dictionary.com
+      - there are more than one part of speech in one word
 
     v Paraphrasing
       v using Microsoft Translating API (c#)
         v paraphrasing by translating English to English
-        v can specifie the number of paraphrases need
-        * takes couple of seconds
+        v can specify the number of paraphrases need
+        - takes couple of seconds
+	- cannot change the question to declarative sentence (need too much dictionary, grammar, idiom, database...etc)
+	  might can be done as we work on matching part. Actually, it is not really necessary because we need to
+          match the sentences anyway. Why rearrange the sentences? If we really need to search by sentence, we can just
+	  use part of it rather rearranging.
 
 * need to be fixed
