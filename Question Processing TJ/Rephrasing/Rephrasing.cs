@@ -1,7 +1,9 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Threading;
+using System.Windows.Forms;
 using System.Web;
 using System.Linq;
 using System.Collections.Generic;
@@ -14,28 +16,237 @@ namespace QuestionRephraseAndSynonyms
 {
     class Program
     {
+        private const string AccountKey = "XFOoQ3ViyZxhFruLmewr3fbqzraakvNQtfcLff3y7uo";
+
+       // private string _plainText;
+
         static void Main(string[] args)
         {
-            string question = Console.ReadLine();
-            string paraphraseOutput = paraphrasing(question, '5');
-            string[] paraphrases
-                = paraphraseOutput.Substring(paraphraseOutput.IndexOf("[")).
-                Split(new char[] { ',', ':', '\"', '[', ']', '}', '?' });
-            List<string> processed = new List<string>();
-            foreach (string paraphrase in paraphrases)
-            {
-                if (paraphrase != "")
-                {
-                    processed.Add(paraphrase);
-                }
-            }
 
-            foreach (string proce in processed)
+            string question = Console.ReadLine();
+            List<string> paraList = new List<string>();
+            paraListGenerator(question, paraList);
+            foreach (string proce in paraList)
             {
                 Console.WriteLine(proce);
             }
+
+
+            string question = Console.ReadLine();
+            Console.WriteLine("Web Result---------------------------------");
+            try
+            {
+                MakeRequest(question);
+            }
+            catch (Exception ex)
+            {
+                string innerMessage =
+                    (ex.InnerException != null) ?
+                    ex.InnerException.Message : String.Empty;
+                Console.WriteLine("{0}\n{1}", ex.Message, innerMessage);
+            }
+            Console.WriteLine("\nNews Result---------------------------------");
+            try
+            {
+                MakeNewsRequest(question);
+            }
+            catch (Exception ex)
+            {
+                string innerMessage =
+                    (ex.InnerException != null) ?
+                    ex.InnerException.Message : String.Empty;
+                Console.WriteLine("{0}\n{1}", ex.Message, innerMessage);
+            }
+            Console.WriteLine("\nRelatedSearch Result---------------------------------");
+            try
+            {
+                MakeRelatedRequest(question);
+            }
+            catch (Exception ex)
+            {
+                string innerMessage =
+                    (ex.InnerException != null) ?
+                    ex.InnerException.Message : String.Empty;
+                Console.WriteLine("{0}\n{1}", ex.Message, innerMessage);
+            }
+         
+            /*
+            // Create an AlchemyAPI object.
+            AlchemyAPI.AlchemyAPI alchemyObj = new AlchemyAPI.AlchemyAPI();
+
+
+            // Load an API key from disk.
+            alchemyObj.LoadAPIKey("api_key.txt");
+
+
+            // Extract page text from a web URL. (ignoring ads, navigation links, etc.)
+            string xml = alchemyObj.URLGetText("http://environment.nationalgeographic.com/environment/photos/megafishes-gallery/");
+            Console.WriteLine(xml);
+
+
+            // Extract raw page text from a web URL. (including ads, navigation links, etc.)
+            xml = alchemyObj.URLGetRawText("http://environment.nationalgeographic.com/environment/photos/megafishes-gallery/");
+            Console.WriteLine(xml);
+
+
+            // Extract a title from a web URL.
+            xml = alchemyObj.URLGetTitle("http://environment.nationalgeographic.com/environment/photos/megafishes-gallery/");
+            Console.WriteLine(xml);
+            */
+            /*
+            // Load a HTML document to analyze.
+            StreamReader streamReader = new StreamReader("data/example.html");
+            string htmlDoc = streamReader.ReadToEnd();
+            streamReader.Close();
+
+
+            // Extract page text from a HTML document. (ignoring ads, navigation links, etc.)
+            xml = alchemyObj.HTMLGetText(htmlDoc, "http://www.test.com/");
+            Console.WriteLine(xml);
+
+
+            // Extract raw page text from a HTML document. (including ads, navigation links, etc.)
+            xml = alchemyObj.HTMLGetRawText(htmlDoc, "http://www.test.com/");
+            Console.WriteLine(xml);
+
+
+            // Extract a title from a HTML document.
+            xml = alchemyObj.HTMLGetTitle(htmlDoc, "http://www.test.com/");
+            Console.WriteLine(xml);
+            */
+
+        }
+    
+        //Bing Search
+        static void MakeRequest(string question)
+        {
+            // This is the query expression.
+            string query = question;
+
+            // Create a Bing container.
+            string rootUrl = "https://api.datamarket.azure.com/Bing/Search";
+            var bingContainer = new Bing.BingSearchContainer(new Uri(rootUrl));
+
+            // The market to use.
+            string market = "en-us";
+
+            // Configure bingContainer to use your credentials.
+            bingContainer.Credentials = new NetworkCredential(AccountKey, AccountKey);
+
+            // Build the query, limiting to 10 results.
+            var webQuery =
+                bingContainer.Web(query, null, null, market, null, null, null, null);
+            webQuery = webQuery.AddQueryOption("$top", 10);
+
+            // Run the query and display the results.
+            var webResults = webQuery.Execute();
+
+            foreach (var result in webResults)
+            {
+                Console.WriteLine("{0}\n\t{1}", result.Title, result.Url);
+            }
         }
 
+        static void MakeNewsRequest(string question)
+        {
+            // This is the query expression.
+            string query = question;
+
+            // Create a Bing container.
+
+            string rootUrl = "https://api.datamarket.azure.com/Bing/Search";
+
+            var bingContainer = new Bing.BingSearchContainer(new Uri(rootUrl));
+
+            // The market to use.
+
+            string market = "en-us";
+
+            // Get news for science and technology.
+
+            string newsCat = "rt_ScienceAndTechnology";
+
+            // Configure bingContainer to use your credentials.
+
+            bingContainer.Credentials = new NetworkCredential(AccountKey, AccountKey);
+
+            // Build the query, limiting to 10 results.
+
+            var newsQuery =
+
+            bingContainer.News(query, null, market, null, null, null, null, newsCat, null);
+
+            newsQuery = newsQuery.AddQueryOption("$top", 10);
+
+            // Run the query and display the results.
+
+            var newsResults = newsQuery.Execute();
+
+            foreach (var result in newsResults)
+            {
+
+                Console.WriteLine("{0}-{1}\n\t{2}",
+
+                result.Source, result.Title, result.Description);
+
+            }
+        }
+
+        static void MakeRelatedRequest(string question)
+        {
+            // This is the query expression.
+            string query = question;
+
+            // Create a Bing container.
+
+            string rootUrl = "https://api.datamarket.azure.com/Bing/Search";
+
+            var bingContainer = new Bing.BingSearchContainer(new Uri(rootUrl));
+
+            // The market to use.
+
+            string market = "en-us";
+
+            // Configure bingContainer to use your credentials.
+
+            bingContainer.Credentials = new NetworkCredential(AccountKey, AccountKey);
+
+            // Build the query, limiting to 5 results.
+
+            var relatedQuery =
+
+            bingContainer.RelatedSearch(query, null, market, null, null, null);
+
+            relatedQuery = relatedQuery.AddQueryOption("$top", 5);
+
+            // Run the query and display the results.
+
+            var relatedResults = relatedQuery.Execute();
+
+            foreach (var result in relatedResults)
+            {
+
+                Console.WriteLine("{0}\n\t{1}", result.Title, result.BingUrl);
+
+            }
+        }
+
+        static void paraListGenerator(string question, List<string> paraList)
+        {
+            string paraAPIOut = paraphrasing(question, '5');
+            string[] paraAPIOutSpl
+                = paraAPIOut.Substring(paraAPIOut.IndexOf("[")).
+                Split(new char[] { ',', ':', '\"', '[', ']', '}', '?' });
+
+            foreach (string para in paraAPIOutSpl)
+            {
+                if (para != "")
+                {
+                    paraList.Add(para);
+                }
+            }
+        }
+        //Bing Syn
         class BingSynonyms
         {
             private const string User_ID = "wkdxownd1007@gmail.com";
@@ -79,7 +290,7 @@ namespace QuestionRephraseAndSynonyms
             }
 
         }
-
+        //Para
         private static string GetParaphrases(string url, string headerValue)
         {
             string responseContent = string.Empty;
@@ -98,7 +309,7 @@ namespace QuestionRephraseAndSynonyms
 
             return responseContent;
         }
-
+        //Para
         private static HttpWebResponse InvokeRestGetService(string url,
             string headerValue, IWebProxy proxy)
         {
@@ -117,7 +328,7 @@ namespace QuestionRephraseAndSynonyms
             // return HttpWebResponse
             return (HttpWebResponse)restWebRequest.GetResponse();
         }
-
+        //Para
         static string paraphrasing(string sentence, char numOfParas)
         {
             AdmAccessToken admToken;
@@ -130,7 +341,7 @@ namespace QuestionRephraseAndSynonyms
             AdmAuthentication admAuth
                 = new AdmAuthentication(
                     "61ac4bbd-ceea-4cd2-a33e-26ac7644f516",
-                    "XFOoQ3ViyZxhFruLmewr3fbqzraakvNQtfcLff3y7uo");
+                    "I7kv+trhQqTDI9egay1fwTgXG0URzMnb4m4kURzov5k=");
             try
             {
                 admToken = admAuth.GetAccessToken();
@@ -156,6 +367,7 @@ namespace QuestionRephraseAndSynonyms
             }
         }
 
+        //Bing Syn
         //Returns a list of synonyms of
         //specialWord(people, location, products).
         static List<string> specialSynon(string specialWord)
@@ -172,7 +384,7 @@ namespace QuestionRephraseAndSynonyms
             return synonyms;
         }
     }
-
+    //Para
     [DataContract]
     public class AdmAccessToken
     {
@@ -185,7 +397,7 @@ namespace QuestionRephraseAndSynonyms
         [DataMember]
         public string scope { get; set; }
     }
-
+    //Para
     public class AdmAuthentication
     {
         public static readonly string DatamarketAccessUri
