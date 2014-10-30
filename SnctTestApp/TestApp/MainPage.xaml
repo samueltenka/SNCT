@@ -1,0 +1,39 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:SNCT="using:SNCT"
+    x:Class="TestApp.MainPage"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="pageTitle"
+                   Text="Application Name"
+                   Style="{StaticResource HeaderTextBlockStyle}"
+                   Grid.Row="0" 
+                   IsHitTestVisible="false"
+                   TextWrapping="NoWrap"
+                   VerticalAlignment="Bottom"
+                   Margin="30,40" />
+        
+        <TextBlock Text="{Binding}"/>
+        
+        <!--<ListView Grid.Row="1" ItemsSource="{Binding}" ItemClick="ListView_ItemClick" IsItemClickEnabled="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Title}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+        
+        <SearchBox x:Name="searchBox" Grid.Row="3" QuerySubmitted="searchBox_QuerySubmitted"></SearchBox>
+    </Grid>
+</Page>
