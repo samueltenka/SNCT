@@ -24,15 +24,16 @@
                    VerticalAlignment="Bottom"
                    Margin="30,40" />
         
-        <TextBlock Text="{Binding}"/>
-        
-        <!--<ListView Grid.Row="1" ItemsSource="{Binding}" ItemClick="ListView_ItemClick" IsItemClickEnabled="True">
-            <ListView.ItemTemplate>
+        <ItemsControl ItemsSource="{Binding}">
+            <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding Title}" />
+                    <StackPanel>
+                        <TextBlock Text="{Binding Score}"/>
+                        <TextBlock Text="{Binding Sentence}"/>
+                    </StackPanel>
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>-->
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
         
         <SearchBox x:Name="searchBox" Grid.Row="3" QuerySubmitted="searchBox_QuerySubmitted"></SearchBox>
     </Grid>
