@@ -8,7 +8,8 @@ class Sntnce
         grade = 0;
     }
 }
-
+//Require: anyWords has anyWords in a Question: What is the best fish? -> "what" "is" "the" "best" "fish"
+//          keyWords has key words: "best" "fish"
         static void ranking(ref Hashtable anyWords, ref Hashtable keyWords, ref Sntnce[] sntnces, int keyWordWeigt, int anyWordWeigt)
         {
             foreach (Sntnce sntnce in sntnces)
