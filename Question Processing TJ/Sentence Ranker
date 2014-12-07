@@ -1,0 +1,26 @@
+class Sntnce
+{
+    public string[] myWords;
+    public int grade;
+
+    public Sntnce()
+    {
+        grade = 0;
+    }
+}
+
+        static void ranking(ref Hashtable anyWords, ref Hashtable keyWords, ref Sntnce[] sntnces, int keyWordWeigt, int anyWordWeigt)
+        {
+            foreach (Sntnce sntnce in sntnces)
+            {
+                foreach(string myWord in sntnce.myWords) {
+                    if (keyWords.Contains(myWord)) {
+                        sntnce.grade += keyWordWeigt;
+                    }
+                    if (anyWords.Contains(myWord))
+                    {
+                        sntnce.grade += anyWordWeigt;
+                    }
+                }
+            }
+        }
