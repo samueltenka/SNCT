@@ -71,12 +71,71 @@ namespace SNCT
                                               "18th 19th 20th 21st" +
                                               "1776 1975 1945 2011 2012 2013 2014" +
                                               "28th 29th 30th 31st" +
+                                              "revolutionary independence civil world war history time").Split();
+        private static String[] place_words = ("chair table cubby desk shelf closet drawer" +
+                                               "room building neighborhood village town zone city district county peninsula country continent earth planet system" + 
+                                               "on under in out inside outside right left up down above below here there" +
+                                              "east west north south" +
+                                              "address room house street avenue lane road drive bridge interstate highway way" +                                              
+                                              "Albuquerque Ann Arbor Detroit Redmond NYC LA angeles" +
+                                              "MI IN OH CA NY WA michigan indiana ohio california york washington" +
+                                              "USA united states canada mexico china brazil japan france britain germany india italy spain" +
+                                              "america australia asia africa europe antarctica" +
+                                              "geology geography place space").ToLower().Split();
+        private static String[] person_words = ("nanosecond millisecond second minute hour day week month season year decade century millenium" +
+                                              "before during after past present future previous current next" +
+                                              "then now early late first last" +
+                                              "sunday monday tuesday wednesday thursday friday saturday" +
+                                              "january february march april may june july august september october november december" +
+                                              "winter spring summer fall" +
+                                              "18th 19th 20th 21st" +
+                                              "1776 1975 1945 2011 2012 2013 2014" +
+                                              "28th 29th 30th 31st" +
+                                              "revolutionary independence civil world war").Split();
+        private static String[] identity_words = ("nanosecond millisecond second minute hour day week month season year decade century millenium" +
+                                              "before during after past present future previous current next" +
+                                              "then now early late first last" +
+                                              "sunday monday tuesday wednesday thursday friday saturday" +
+                                              "january february march april may june july august september october november december" +
+                                              "winter spring summer fall" +
+                                              "18th 19th 20th 21st" +
+                                              "1776 1975 1945 2011 2012 2013 2014" +
+                                              "28th 29th 30th 31st" +
+                                              "revolutionary independence civil world war").Split();
+        private static String[] time_words = ("nanosecond millisecond second minute hour day week month season year decade century millenium" +
+                                              "before during after past present future previous current next" +
+                                              "then now early late first last" +
+                                              "sunday monday tuesday wednesday thursday friday saturday" +
+                                              "january february march april may june july august september october november december" +
+                                              "winter spring summer fall" +
+                                              "18th 19th 20th 21st" +
+                                              "1776 1975 1945 2011 2012 2013 2014" +
+                                              "28th 29th 30th 31st" +
+                                              "revolutionary independence civil world war").Split();
+        private static String[] time_words = ("nanosecond millisecond second minute hour day week month season year decade century millenium" +
+                                              "before during after past present future previous current next" +
+                                              "then now early late first last" +
+                                              "sunday monday tuesday wednesday thursday friday saturday" +
+                                              "january february march april may june july august september october november december" +
+                                              "winter spring summer fall" +
+                                              "18th 19th 20th 21st" +
+                                              "1776 1975 1945 2011 2012 2013 2014" +
+                                              "28th 29th 30th 31st" +
                                               "revolutionary independence civil world war").Split();
 
 
         private Tuple<String[], String[]> process_query(String query) // THX, TJ! :)
         {
+            String first = query.Split()[0];
+            String[] category_words = first=="when" ? time_words :
+                                      first=="where" ? place_words :
+                                      first=="who" ? person_words :
+                                      first=="what" ? identity_words :
+                                      first=="which" ? specifying_words :
+                                      first=="why" ? explanation_words :
+                                      first=="wherefore" ? time_words :
 
+            return new Tuple<String[], String[]>(query., category_words);
         }
 
         private static double word_relevance(String word1, String word2)
