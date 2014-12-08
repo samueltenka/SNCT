@@ -3,29 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace SNCT
 {
     public class Phrase
     {
         public String value;
+        private double influx;
         private double importance;
         //private List<Phrase> uppers; // phrases containing Phrase
         //private List<Phrase> lowers; // phrases this Phrase contains
         private SortedDictionary<Phrase, double> outs;
 
-        public Phrase(String v)
+        public Phrase(String val, double inf)
         {
-            value = v;
+            value = val;
+            influx = inf;
             importance = 1.0;
         }
 
-        public void add_recipient(Phrase recipient, double weight)
-        {
-            outs[recipient] = weight;
-        }
+        public void add_recipient(Phrase recipient, double weight) {outs[recipient] = weight;}
+        public double get_importance() {return importance;}
 
-        public void step(double influx, double dt)
+        public void step(double dt)
         {
             importance += influx * dt;
             foreach (var pair in outs)
@@ -42,6 +43,9 @@ namespace SNCT
     public class PhraseGraph
     {
         private SortedDictionary<String, Phrase> phrases;
+        private JudgeOfRelevancy JoR;
+        public String query;
+        public String[] query_content_words;
 
         public static String[] get_sentences(String text)
         {
@@ -70,7 +74,8 @@ namespace SNCT
         {
             if (!phrases.ContainsKey(text))
             {
-                phrases.Add(text, new Phrase(text));
+                double rel = JoR.get_direct_relevance(text, query, query_content_words);
+                phrases.Add(text, new Phrase(text, rel));
             } return phrases[text];
         }
 
@@ -90,13 +95,35 @@ namespace SNCT
             }
         }
 
-        public void step(String query, double dt)
+        public void step(double dt)
         {
-            foreach (var pair in phrases)
+            foreach(var pair in phrases)
             {
-                double influx = direct_relevance(pair.Key, query);
-                pair.Value.step(influx, dt);
+                pair.Value.step(dt);
             }
+        }
+
+        public SortedDictionary<String, double> get_top(int n)
+        {
+            SortedDictionary<String, double> best_so_fars = new SortedDictionary<String, double>();
+            double worst_score_in_best = -100.0; // assume dt small enough so nobody negative
+            foreach(var pair in phrases)
+            {
+                double score = pair.Value.get_importance();
+                String sentence = pair.Key;
+                if(sentence.Split().Count() <= 1) {continue;} // don't include single words.
+
+                if(best_so_fars.Count() < n)
+                {
+                    if(!best_so_fars.ContainsKey(sentence)) {best_so_fars.Add(sentence, score);}
+                    if(score < worst_score_in_best) {worst_score_in_best = score;}
+                }
+                else if(score > worst_score_in_best)
+                {
+                    if(!best_so_fars.ContainsKey(sentence)) {best_so_fars.Add(sentence, score);}
+                    best_so_fars.Remove(best_so_fars.First().Key);
+                }
+            } return best_so_fars;
         }
     }
 }
