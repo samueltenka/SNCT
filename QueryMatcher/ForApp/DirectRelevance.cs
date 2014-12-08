@@ -93,7 +93,7 @@ namespace SNCT
             HashSet<String> words2 = get_synonyms(word2);
             return words1.Intersect(words2).Count() / (words1.Count() + words2.Count());
         }
-        public double get_direct_relevance(String text, String query, String[] query_content_words)
+        public double get_direct_relevance(String text, String query, HashSet<String> query_content_words)
         {
             String[] query_category_words = get_category_words_of(query);
             String[] text_words = text.Split();
