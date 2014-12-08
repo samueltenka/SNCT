@@ -45,7 +45,7 @@ namespace SNCT
         private SortedDictionary<String, Phrase> phrases;
         private JudgeOfRelevancy JoR;
         public String query;
-        public String[] query_content_words;
+        public HashSet<String> query_content_words;
 
         public static String[] get_sentences(String text)
         {
@@ -79,8 +79,11 @@ namespace SNCT
             } return phrases[text];
         }
 
-        public PhraseGraph(String text)
+        public PhraseGraph(String text, String q, HashSet<String> q_content_words)
         {
+            query = q;
+            query_content_words = q_content_words;
+
             String[] sentences = get_sentences(text.ToLower());
             foreach (var sentence in sentences)
             {
