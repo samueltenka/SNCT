@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
+#define DECAY_RATE 0.1
+
 namespace SNCT
 {
     public class Phrase : IComparable
@@ -44,7 +46,7 @@ namespace SNCT
                 pair.Key.importance += flux * dt;
                 importance -= flux * dt;
             }
-            importance -= importance * dt;
+            importance -= DECAY_RATE * (importance-0.1) * dt;
         }
     }
 
