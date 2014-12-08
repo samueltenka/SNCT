@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace SNCT
 {
-    public class Phrase
+    public class Phrase : IComparable
     {
         public String value;
         private double influx;
@@ -16,11 +16,20 @@ namespace SNCT
         //private List<Phrase> lowers; // phrases this Phrase contains
         private SortedDictionary<Phrase, double> outs;
 
+        public int CompareTo(object obj)
+        {
+            if (obj == null) { return 1; }
+            Phrase P = obj as Phrase;
+            if (P != null) { return value.CompareTo(P.value); }
+            else { throw new ArgumentException("Object is not a Phrase"); }
+        }
+
         public Phrase(String val, double inf)
         {
             value = val;
             influx = inf;
             importance = 1.0;
+            outs = new SortedDictionary<Phrase, double>();
         }
 
         public void add_recipient(Phrase recipient, double weight) {outs[recipient] = weight;}
@@ -86,6 +95,8 @@ namespace SNCT
         }
         public PhraseGraph(JudgeOfRelevancy JoR_, String text, String q, HashSet<String> q_content_words)
         {
+            JoR = JoR_;
+            phrases = new SortedDictionary<string, Phrase>();
             query = q;
             query_content_words = q_content_words;
 
@@ -94,8 +105,9 @@ namespace SNCT
             {
                 Phrase sentence_phrase = ensure_phrase(sentence);
                 String[] words = get_words(sentence);
-                foreach (var word in words)
+                foreach(var word in words)
                 {
+                    if(word=="") {continue;}
                     Phrase word_phrase = ensure_phrase(word);
                     word_phrase.add_recipient(sentence_phrase, 1.0);
                     sentence_phrase.add_recipient(word_phrase, 1.0);
@@ -119,7 +131,7 @@ namespace SNCT
             {
                 double score = pair.Value.get_importance();
                 String sentence = pair.Key;
-                if(sentence.Split().Count() <= 1) {continue;} // don't include single words.
+                if(sentence.Split().Count() <= 3) {continue;} // don't include single words.
 
                 if(best_so_fars.Count() < n)
                 {
