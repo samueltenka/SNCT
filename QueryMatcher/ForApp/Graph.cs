@@ -14,6 +14,10 @@ namespace SNCT
                                                 * DECAY_RATE, the more important is literal matching.
                                                 * And the closer to 0 clump the scores, although
                                                 * this shouldn't affect ability to be ranked by score.
+                                                * 
+                                                * DECAY_RATE must range in [0, infinity).
+                                                * Probably values in [0, 1.0] are best. We haven't tested
+                                                * limit case of 0 --- how good are answers, then?
                                                 */
         public String value;
         private double influx;
