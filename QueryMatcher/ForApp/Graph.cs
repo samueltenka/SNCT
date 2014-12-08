@@ -9,8 +9,12 @@ namespace SNCT
 {
     public class Phrase : IComparable
     {
-        private const double DECAY_RATE = 0.1;
-
+        private const double DECAY_RATE = 0.1; /* DECAY_RATE sets importance of intra-text connections
+                                                * relative to literal matching to query. The higher the
+                                                * DECAY_RATE, the more important is literal matching.
+                                                * And the closer to 0 clump the scores, although
+                                                * this shouldn't affect ability to be ranked by score.
+                                                */
         public String value;
         private double influx;
         private double importance;
