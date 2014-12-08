@@ -2,6 +2,7 @@
 (1) add synonym edges to graph; let weights vary from 1.
 (2) Remove "[blah blah]" wikipedia citations
 (3) focus graph-flow to denser areas
-(4) insert easter eggs at level of matching certain query
-(5) figure out nicer format.
-(6) push "thesaurus.txt"
+(4) Calibrate DECAY-RATE.
+(5) insert easter eggs at level of matching certain query
+(6) figure out nicer format.
+(7) push "thesaurus.txt"
