@@ -17,10 +17,16 @@ namespace SNCT
         }
 
         private SortedDictionary<String, HashSet<String>> thesaurus;
-        async public Task JudgeOfRelevancy()
+
+        public JudgeOfRelevancy(SortedDictionary<String, HashSet<String>> thesaurus_)
+        {
+            thesaurus = thesaurus_;
+        }
+        async public static Task<JudgeOfRelevancy> build_JoR()
         {
             // initialize thesaurus
             String thes_text = await get_text("thesaurus\thesaurus.txt");
+            SortedDictionary<String, HashSet<String>> thesaurus_ = new SortedDictionary<String, HashSet<String>>();
 
             bool new_word = false;
             String word = "";
@@ -28,15 +34,17 @@ namespace SNCT
             {
                 if(new_word) {
                     word = line;
-                    thesaurus.Add(word, new HashSet<String>());
-                    thesaurus[word].Add(word);
+                    thesaurus_.Add(word, new HashSet<String>());
+                    thesaurus_[word].Add(word);
                     new_word = false;
                 } else if(line=="-----------word----------") {
                     new_word = true;
                 } else if(line[0] != '-') {
-                    thesaurus[word].Add(line);
+                    thesaurus_[word].Add(line);
                 }
             }
+
+            return new JudgeOfRelevancy(thesaurus_);
         }
         
         private HashSet<String> get_synonyms(String word)
