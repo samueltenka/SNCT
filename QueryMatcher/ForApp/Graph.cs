@@ -19,6 +19,13 @@ namespace SNCT
                                                 * Probably values in [0, 1.0] are best. We haven't tested
                                                 * limit case of 0 --- how good are answers, then?
                                                 */
+        private const double EQUILIBRIUM_WEIGHT = 0.1; /* See use of EQUILIBRIUM_WEIGHT below.
+                                                        * IDK what it does, I just guessed it would
+                                                        * smooth out the scores, and perhaps it did.
+                                                        * 
+                                                        * TODO: what happens when EQUILIBRIUM_WEIGHT==0?
+                                                        */
+
         public String value;
         private double influx;
         private double importance;
@@ -54,7 +61,7 @@ namespace SNCT
                 pair.Key.importance += flux * dt;
                 importance -= flux * dt;
             }
-            importance -= DECAY_RATE * (importance-0.1) * dt;
+            importance -= DECAY_RATE * (importance - EQUILIBRIUM_WEIGHT) * dt;
         }
     }
 
