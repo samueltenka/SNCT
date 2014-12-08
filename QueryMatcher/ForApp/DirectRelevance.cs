@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SNCT
 {
-    class JudgeOfRelevancy
+    public class JudgeOfRelevancy
     {
         async private static Task<String> get_text(String filename)
         {
@@ -25,7 +25,9 @@ namespace SNCT
         async public static Task<JudgeOfRelevancy> build_JoR()
         {
             // initialize thesaurus
-            String thes_text = await get_text("thesaurus\thesaurus.txt");
+            // TODO: debug "file not found" in following line
+            //String thes_text = await get_text("thesaurus.txt");
+            String thes_text = "";
             SortedDictionary<String, HashSet<String>> thesaurus_ = new SortedDictionary<String, HashSet<String>>();
 
             bool new_word = false;
@@ -39,7 +41,7 @@ namespace SNCT
                     new_word = false;
                 } else if(line=="-----------word----------") {
                     new_word = true;
-                } else if(line[0] != '-') {
+                } else if(line.Count()>0 && line[0] != '-') {
                     thesaurus_[word].Add(line);
                 }
             }
