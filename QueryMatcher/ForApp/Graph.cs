@@ -79,7 +79,12 @@ namespace SNCT
             } return phrases[text];
         }
 
-        public PhraseGraph(String text, String q, HashSet<String> q_content_words)
+        async public static Task<PhraseGraph> build_PG(String text, String q, HashSet<String> q_content_words)
+        {
+            JudgeOfRelevancy JoR_ = await JudgeOfRelevancy.build_JoR();
+            return new PhraseGraph(JoR_, text, q, q_content_words);
+        }
+        public PhraseGraph(JudgeOfRelevancy JoR_, String text, String q, HashSet<String> q_content_words)
         {
             query = q;
             query_content_words = q_content_words;
@@ -98,7 +103,7 @@ namespace SNCT
             }
         }
 
-        public void step(double dt)
+        public void step(double dt) // todo:
         {
             foreach(var pair in phrases)
             {
