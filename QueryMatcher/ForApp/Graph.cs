@@ -93,7 +93,12 @@ namespace SNCT
         }
         public static String[] get_words(String text)
         {
-            return text.Split(' ');
+            foreach(char c in "?!.;:,\t\n")
+            {
+                text = text.Replace(c.ToString(), "");
+            }
+            text = text.Replace("  ", "");
+            return text.Split();
         }
 
         public Phrase ensure_phrase(String text)
@@ -113,21 +118,43 @@ namespace SNCT
         public PhraseGraph(JudgeOfRelevancy JoR_, String text, String q, HashSet<String> q_content_words)
         {
             JoR = JoR_;
-            phrases = new SortedDictionary<string, Phrase>();
+            phrases = new SortedDictionary<String, Phrase>();
             query = q;
             query_content_words = q_content_words;
 
             String[] sentences = get_sentences(text.ToLower());
+            Phrase last_sentence = null;
             foreach (var sentence in sentences)
             {
                 Phrase sentence_phrase = ensure_phrase(sentence);
+                if (last_sentence != null) // Link neighbor sentences
+                {
+                    last_sentence.add_recipient(sentence_phrase, 0.5); // 0.5 < 0.6, so weight will drift back:
+                    sentence_phrase.add_recipient(last_sentence, 0.6); // so earlier sentences better
+                }
+
                 String[] words = get_words(sentence);
-                foreach(var word in words)
+                foreach(var word in words) // Link sentences with their words 
                 {
                     if(word=="") {continue;}
                     Phrase word_phrase = ensure_phrase(word);
-                    word_phrase.add_recipient(sentence_phrase, 1.0);
-                    sentence_phrase.add_recipient(word_phrase, 1.0);
+                    word_phrase.add_recipient(sentence_phrase, 10.0 / words.Count()); // weight flows from long sentences
+                    sentence_phrase.add_recipient(word_phrase, 1.0);                  // to words, to short sentences
+                }
+
+                last_sentence = sentence_phrase;
+            }
+
+            foreach(String word in phrases.Keys) // Link synonyms
+            {
+                if (word.Split().Count() >= 2) { continue; } // don't include sentences
+                HashSet<String> syns = JoR.get_synonyms(word);
+                foreach(String synonym in syns)
+                {
+                    Phrase word_phrase = ensure_phrase(word);
+                    Phrase syn_phrase = ensure_phrase(synonym);
+                    syn_phrase.add_recipient(word_phrase, 1.0*syns.Count());
+                    word_phrase.add_recipient(syn_phrase, 1.0*syns.Count());
                 }
             }
         }
@@ -148,7 +175,7 @@ namespace SNCT
             {
                 double score = pair.Value.get_importance();
                 String sentence = pair.Key;
-                if(sentence.Split().Count() <= 3) {continue;} // don't include single words.
+                if(sentence.Split().Count() <= 1) {continue;} // don't include single words.
 
                 if(best_so_fars.Count() < n)
                 {
