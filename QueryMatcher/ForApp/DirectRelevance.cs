@@ -49,7 +49,7 @@ namespace SNCT
             return new JudgeOfRelevancy(thesaurus_);
         }
         
-        private HashSet<String> get_synonyms(String word)
+        public HashSet<String> get_synonyms(String word)
         {
             if (thesaurus.ContainsKey(word)) { return thesaurus[word]; }
             else { return new HashSet<String> { word }; }
