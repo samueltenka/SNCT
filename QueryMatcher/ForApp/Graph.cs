@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Text.RegularExpressions;
 
 namespace SNCT
 {
     public class Phrase : IComparable
     {
-        private const double DECAY_RATE = 0.1; /* DECAY_RATE sets importance of intra-text connections
+        private const double DECAY_RATE = 0.5; /* DECAY_RATE sets importance of intra-text connections
                                                 * relative to literal matching to query. The higher the
                                                 * DECAY_RATE, the more important is literal matching.
                                                 * And the closer to 0 clump the scores, although
@@ -19,7 +18,7 @@ namespace SNCT
                                                 * Probably values in [0, 1.0] are best. We haven't tested
                                                 * limit case of 0 --- how good are answers, then?
                                                 */
-        private const double EQUILIBRIUM_WEIGHT = 0.1; /* See use of EQUILIBRIUM_WEIGHT below.
+        private const double EQUILIBRIUM_WEIGHT = 0.01; /* See use of EQUILIBRIUM_WEIGHT below.
                                                         * IDK what it does, I just guessed it would
                                                         * smooth out the scores, and perhaps it did.
                                                         * 
@@ -73,34 +72,6 @@ namespace SNCT
         public String query;
         public HashSet<String> query_content_words;
 
-        public static String[] get_sentences(String text)
-        {
-            string pattern = @"\.\s+[A-Z]";
-            Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
-            MatchCollection matches = rgx.Matches(text);
-            if (matches.Count > 0)
-            {
-                String[] sentences = new String[matches.Count + 1];
-                for (int i = -1; i < matches.Count; ++i)
-                {
-                    int start = (i < 0 ? -1 : matches[i].Index);
-                    int end = (i + 1 < matches.Count ? matches[i + 1].Index : text.Length);
-                    sentences[i + 1] = text.Substring(start + 1, end - start - 1) + ".";
-                }
-                return sentences;
-            }
-            return new String[1];
-        }
-        public static String[] get_words(String text)
-        {
-            foreach(char c in "?!.;:,\t\n")
-            {
-                text = text.Replace(c.ToString(), "");
-            }
-            text = text.Replace("  ", "");
-            return text.Split();
-        }
-
         public Phrase ensure_phrase(String text)
         {
             if (!phrases.ContainsKey(text))
@@ -122,10 +93,13 @@ namespace SNCT
             query = q;
             query_content_words = q_content_words;
 
-            String[] sentences = get_sentences(text.ToLower());
+            List<Tuple<String, List<String>>> sentence_words = TextCleaner.get_sentence_words(text);
             Phrase last_sentence = null;
-            foreach (var sentence in sentences)
+            foreach (Tuple<String, List<String>> sentence_and_words in sentence_words)
             {
+                String sentence = sentence_and_words.Item1;
+                List<String> words = sentence_and_words.Item2;
+
                 Phrase sentence_phrase = ensure_phrase(sentence);
                 if (last_sentence != null) // Link neighbor sentences
                 {
@@ -133,7 +107,6 @@ namespace SNCT
                     sentence_phrase.add_recipient(last_sentence, 0.6); // so earlier sentences better
                 }
 
-                String[] words = get_words(sentence);
                 foreach(var word in words) // Link sentences with their words 
                 {
                     if(word=="") {continue;}
