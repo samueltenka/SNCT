@@ -55,26 +55,28 @@ namespace TestApp
             var paraphrases = await SNCT.Rephrasing.GetParaphrases(sender.QueryText, 5);
             foreach (var query in paraphrases)
             {
-                this.Hey.Text = "(2) getting Bing results...";
+                this.Hey.Text = "(2) getting Bing results for \"" + query.GetString() + "\"...";
                 // get the string from the JsonArray
                 string q = query.GetString();
                 // Grab the first result (to be changed)
                 this.Results.Add((await SNCT.BingProvider.GetResultsForQuery(q))[0]);
             }
+
+            this.Hey.Text = "(3) assembling giant text...";
             foreach (var result in this.Results)
             {
-                this.Hey.Text = "(3) assembling giant text...";
                 // Add the extracted text to our giant blob
                 massive_text += await SNCT.AlchemyProvider.URLGetText(result.Url);
             }
+
             // get an string answer from Sam's stuff :)
-            //var answer = Finder.answer(massive_text, sender.QueryText, 5);
+            this.Hey.Text = "(4) reading giant text...";
             List<String> paraphrases_list = new List<String>();
             foreach(var query in paraphrases) {paraphrases_list.Add(query.GetString());}
             SortedDictionary<String, double> answer = await Finder.answer(massive_text, paraphrases_list.ToArray(), 5);
             foreach(var a in answer)
             {
-                this.Hey.Text = "(4) outputting answers...";
+                this.Hey.Text = "(5) outputting answers...";
                 this.Answers.Add(new Answer(a.Key==""?"hey!":a.Key, a.Value));
             }
             this.DataContext = this.Answers;
