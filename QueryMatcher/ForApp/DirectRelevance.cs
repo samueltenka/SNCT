@@ -75,9 +75,9 @@ namespace SNCT
                                               "USA united states canada mexico china brazil japan france britain germany india italy spain" +
                                               "america australia asia africa europe antarctica" +
                                               "geology geography place space").ToLower().Split();
-        private static String[] person_words = ("he she they his her their his hers theirs him her them").Split();
-        private static String[] identity_words = ("that this is definition").Split();
-        private static String[] specifying_words = ("of").Split();
+        private static String[] person_words = ("he she they his her their his hers theirs him her them who whom whose").Split();
+        private static String[] identity_words = ("that this is definition what").Split();
+        private static String[] specifying_words = ("of which").Split();
         private static String[] explanation_words = ("because since for reason order to why").Split();
         private static String[] mechanism_words = ("via using with how").Split();
         private static String[] truth_words = ("indeed truly does do did").Split();
@@ -88,7 +88,7 @@ namespace SNCT
             String first = query.Split()[0]; // TODO: how about "For what reason does...?"?
             String[] category_words = first=="when" ? time_words :
                                       first=="where" ? place_words :
-                                      first=="who" ? person_words :
+   first=="whose" || first=="whom" || first=="who" ? person_words :
                                       first=="what" ? identity_words :
                                       first=="which" ? specifying_words :
                 first=="wherefore" || first=="why" ? explanation_words :
