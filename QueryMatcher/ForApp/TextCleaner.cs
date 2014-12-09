@@ -13,7 +13,7 @@ namespace SNCT
         {
             List<Tuple<String, List<String>>> sentence_words = new List<Tuple<String, List<String>>>();
 
-            text = remove_citations(text);
+            text = /*simplify_sentences(*/remove_citations(text)/*)*/;
             List<String> sentences = get_sentences(text);
             foreach(String sentence in sentences)
             {
@@ -32,7 +32,7 @@ namespace SNCT
 
         private static List<String> get_sentences(String text)
         {
-            string sentence_boundary_pattern = @"(?<predot>\s\S\S+)\.\s+[A-Z]";
+            string sentence_boundary_pattern = @"\s\S\S+\.\s+[A-Z]"; // "\s\S\S+" so don't break at "John F. Kennedy"
             Regex rgx = new Regex(sentence_boundary_pattern, RegexOptions.IgnoreCase);
             MatchCollection matches = rgx.Matches(text);
             if (matches.Count > 0)
@@ -40,7 +40,6 @@ namespace SNCT
                 List<String> sentences = new List<String>(); // expect of length <= matches.Count + 1
                 for (int i = -1; i < matches.Count; ++i)
                 {
-                    if (matches[i].Groups["predot"].Value.Count() <= 1) { continue; } // don't break at "John F. Kennedy"
                     int start = (i < 0 ? -1 : matches[i].Index);
                     int end = (i+1 < matches.Count ? matches[i+1].Index : text.Length);
                     sentences.Add(text.Substring(start+1, end-start-1) + ".");
@@ -52,12 +51,21 @@ namespace SNCT
 
         // TODO: keep track of indices of starts of sentences so can go back to upper
         private static String to_lowercase(String text) {return text.ToLower();}
-        private static String remove_punctuation(String text)
+        private static String simplify_sentences(String text)
         {
-            foreach (char c in "?!.;:,\t\n") {text = text.Replace(c.ToString(), "");}
+            foreach(char c in "?!.;:()") { text = text.Replace(c.ToString(), "."); }
             return text;
         }
-        private static String normalize_spacing(String text) {return text.Replace("  ", " ");}
+        private static String remove_punctuation(String text)
+        {
+            foreach (char c in "?!.;:,") {text = text.Replace(c.ToString(), "");}
+            return text;
+        }
+        private static String normalize_spacing(String text) 
+        {
+            foreach (char c in "\t\n") { text = text.Replace(c.ToString(), " "); }
+            return text.Replace("  ", " ");
+        }
         private static String[] get_words(String text) {return text.Split();}
     }
 }
