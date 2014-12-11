@@ -21,9 +21,9 @@ namespace SNCT
             }
 
             PhraseGraph PG = await PhraseGraph.build_PG(text, queries[0], query_content_words);
-            for (int i = 0; i < 1000; ++i)
+            for (int i = 0; i < 200; ++i)
             {
-                PG.step(0.01);
+                PG.step(0.05);
             }
 
             return PG.get_top(num);

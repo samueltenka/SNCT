@@ -82,10 +82,11 @@ namespace TestApp
             foreach (var a in answer)
             {
                 // we actually want the higher scores to be first, so lets fudge it instead of writing our own comparator
-                ordered_answers.Add(100.0 - a.Value,  a.Key);
+                ordered_answers.Add(100.0 - a.Value,  a.Key.Trim());
             }
 
-            this.Answer = ordered_answers.ElementAt(0).Value + "\n\n" + ordered_answers.ElementAt(1).Value;
+            this.Answer = ordered_answers.ElementAt(0).Value + "\n\n" + ordered_answers.ElementAt(1).Value + 
+                "\n\n" + ordered_answers.ElementAt(2).Value;
             
             this.DataContext = this.Answer;
             ShowResultsStoryboard.Begin();
