@@ -1,0 +1,199 @@
+﻿<Page
+    x:Class="TestApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Snick It" Style="{StaticResource HeaderTextBlockStyle}" Margin="12,0"/>
+            <TextBlock Text="Inquire" Margin="9,-7,0,0" Style="{StaticResource SubheaderTextBlockStyle}"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,12,12,12">
+            <Grid.Resources>
+                <Storyboard x:Name="SBSearchStep1">
+                    <DoubleAnimation Storyboard.TargetName="IntroTextBlock"
+                                     Storyboard.TargetProperty="Opacity"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="ResultsControl"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress1"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseIn"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="SBSearchStep2">
+                    <DoubleAnimation Storyboard.TargetName="Progress1"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress2"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseIn"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="SBSearchStep3">
+                    <DoubleAnimation Storyboard.TargetName="Progress2"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress3"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseIn"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="SBSearchStep4">
+                    <DoubleAnimation Storyboard.TargetName="Progress3"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress4"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseIn"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="ShowResultsStoryboard">
+                    <DoubleAnimation Storyboard.TargetName="Progress4"
+                                     Storyboard.TargetProperty="Opacity"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="ResultsControl"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseIn"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+            </Grid.Resources>
+
+            <ScrollViewer x:Name="ResultsControl" Margin="0,0,0,34" >
+                <TextBlock TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top"
+                           FontSize="20" ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="0" />
+            </ScrollViewer>
+            <!--<ItemsControl x:Name="ResultsControl" Opacity="0.0" ItemsSource="{Binding}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            --><!--<TextBlock TextWrapping="Wrap" Text="{Binding Score}"/>--><!--
+                            <TextBlock TextWrapping="Wrap" Text="{Binding Sentence}" TextAlignment="Left" FontSize="20"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>-->
+
+            <TextBlock x:Name="IntroTextBlock"
+                       Text="ask me a question!"
+                       FontWeight="ExtraLight"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0" />
+
+            <TextBlock x:Name="Progress1"
+                       Text="processing your question"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+
+            <TextBlock x:Name="Progress2"
+                       Text="searching the web"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+
+            <TextBlock x:Name="Progress3"
+                       Text="reading results"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+
+            <TextBlock x:Name="Progress4"
+                       Text="finding an answer"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+
+            <TextBox Name="searchBox" 
+                     PlaceholderText="Inquire about your innate uncertainty"
+                     VerticalAlignment="Bottom"
+                     HorizontalContentAlignment="Stretch"
+                     KeyDown="searchBox_KeyDown"
+                     GotFocus="searchBox_GotFocus"
+                     LostFocus="searchBox_LostFocus"
+                     Margin="0,150,0,0" />
+        </Grid>
+    </Grid>
+</Page>

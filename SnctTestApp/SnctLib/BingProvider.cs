@@ -43,8 +43,7 @@ namespace SNCT
             }
 
             var results = new ObservableCollection<WebResult>();
-            Parallel.For(0, jsonResults.Count, i =>
-            {
+            for (var i = 0; i < jsonResults.Count; i++) {
                 var obj = jsonResults.GetObjectAt((uint)i);
                 string articleText = "";
                 results.Add(new WebResult(
@@ -54,7 +53,7 @@ namespace SNCT
                     obj.GetNamedString("Url"),
                     articleText
                 ));
-            });
+            }
 
             return results;
         }

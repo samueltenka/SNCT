@@ -10,31 +10,189 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="140" />
-            <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <!--<RowDefinition Height="Auto" />-->
         </Grid.RowDefinitions>
 
-        <TextBlock x:Name="pageTitle"
-                   Text="Application Name"
-                   Style="{StaticResource HeaderTextBlockStyle}"
-                   Grid.Row="0" 
-                   IsHitTestVisible="false"
-                   TextWrapping="NoWrap"
-                   VerticalAlignment="Bottom"
-                   Margin="30,40" />
-        
-        <ItemsControl ItemsSource="{Binding}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel>
-                        <TextBlock Text="{Binding Score}"/>
-                        <TextBlock Text="{Binding Sentence}"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-        
-        <SearchBox x:Name="searchBox" Grid.Row="3" QuerySubmitted="searchBox_QuerySubmitted"></SearchBox>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="SnickIt" Style="{StaticResource HeaderTextBlockStyle}" Margin="12,0"/>
+            <TextBlock Text="Inquire" Margin="9,-7,0,0" Style="{StaticResource SubheaderTextBlockStyle}"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,12,12,12">
+            <Grid.Resources>
+                <Storyboard x:Name="SBSearchStep1">
+                    <DoubleAnimation Storyboard.TargetName="IntroTextBlock"
+                                     Storyboard.TargetProperty="Opacity"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="ResultsControl"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <ExponentialEase EasingMode="EaseOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress1"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="SBSearchStep2">
+                    <DoubleAnimation Storyboard.TargetName="Progress1"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress2"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="SBSearchStep3">
+                    <DoubleAnimation Storyboard.TargetName="Progress2"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress3"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="SBSearchStep4">
+                    <DoubleAnimation Storyboard.TargetName="Progress3"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="Progress4"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="ShowResultsStoryboard">
+                    <DoubleAnimation Storyboard.TargetName="Progress4"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1"
+                                     To="0"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetName="ResultsControl"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0"
+                                     To="1"
+                                     Duration="0:0:1">
+                    <DoubleAnimation.EasingFunction>
+                        <ExponentialEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+            </Grid.Resources>
+
+            <ScrollViewer x:Name="ResultsControl" Margin="0,0,0,34" >
+                <TextBlock TextWrapping="Wrap" Text="{Binding}" FontSize="20" ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="0" />
+            </ScrollViewer>
+            <!--<ItemsControl x:Name="ResultsControl" Opacity="0.0" ItemsSource="{Binding}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock TextWrapping="Wrap" Text="{Binding Score}"/>
+                            <TextBlock TextWrapping="Wrap" Text="{Binding Sentence}" TextAlignment="Left" FontSize="20"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>-->
+
+            <TextBlock x:Name="IntroTextBlock"
+                       Text="ask me a question!"
+                       FontWeight="ExtraLight"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       />
+            
+            <TextBlock x:Name="Progress1"
+                       Text="processing your question"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+            
+            <TextBlock x:Name="Progress2"
+                       Text="searching the web"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+
+            <TextBlock x:Name="Progress3"
+                       Text="reading results"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+
+            <TextBlock x:Name="Progress4"
+                       Text="finding an answer"
+                       FontWeight="ExtraLight"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       FontSize="32" Margin="0,100,0,0"
+                       Opacity="0" />
+            
+            <SearchBox Name="searchBox" 
+                       PlaceholderText="Inquire about your innate uncertainty"
+                       VerticalAlignment="Bottom"
+                       HorizontalContentAlignment="Stretch"
+                       QuerySubmitted="searchBox_QuerySubmitted" SearchHistoryEnabled="False" Margin="0,150,0,0"/>
+        </Grid>
     </Grid>
 </Page>
